@@ -12,6 +12,7 @@
     width: 100%;
     height: 70px;
     background-color: #ffffff;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10); 
    }
     
    .icons {
@@ -51,6 +52,7 @@
     margin-right: auto;
     width: 85%;
     border-radius: 11px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20); 
    }
     
    .headline-breakfast {
@@ -86,6 +88,7 @@
     width: 200px;
     height: 230px;
     align-items: center;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1); 
    }
     
    .kcal {
@@ -170,6 +173,7 @@
     line-height: 70px;
     margin-right: 50px;
     padding-top: 50px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20); 
    }
     
    .ingredients-list {
@@ -193,10 +197,17 @@
     padding: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    display: block;
-    text-decoration: none;
+   }
+
+   .button1 {
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      color: black;
    }
     
+
+
    .footer-all {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -265,6 +276,7 @@
     margin-left: 20px;
     text-transform: uppercase;
     background-color: #ffffff;
+    font-weight: 550;
    }
     
    .Name2 {
@@ -274,6 +286,7 @@
     margin-top: 10px;
     text-transform: uppercase;
     background-color: #ffffff;
+    font-weight: 550;
    }
    /*
       .Buttons {
@@ -302,6 +315,7 @@
     width: 600px;
     height: 100px;
     padding: 10px;
+    font-weight: 550;
    }
     
    .Order {
@@ -317,6 +331,7 @@
     width: 600px;
     height: 100px;
     padding: 10px;
+    font-weight: 550;
    }
     
    /* create overlay
