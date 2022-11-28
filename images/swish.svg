@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 407.81 407.81">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-538.79" y1="599.7" x2="-538.99" y2="600.2" gradientTransform="translate(162044.62 222477.52) scale(300.26 -370.47)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ef2131"/>
+      <stop offset="1" stop-color="#fecf2c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-538.31" y1="600.15" x2="-538.79" y2="599.24" gradientTransform="translate(147747.04 180295.41) scale(273.83 -300.16)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbc52c"/>
+      <stop offset=".26" stop-color="#f87130"/>
+      <stop offset=".56" stop-color="#ef52e2"/>
+      <stop offset="1" stop-color="#661eec"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-538.83" y1="600.1" x2="-538.63" y2="599.61" gradientTransform="translate(161925.08 222428.48) scale(300.25 -370.47)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#78f6d8"/>
+      <stop offset=".27" stop-color="#77d1f6"/>
+      <stop offset=".55" stop-color="#70a4f3"/>
+      <stop offset="1" stop-color="#661eec"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="-538.96" y1="599.43" x2="-538.49" y2="600.34" gradientTransform="translate(147653.98 180175.8) scale(273.83 -300.16)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#536eed"/>
+      <stop offset=".25" stop-color="#54c3ec"/>
+      <stop offset=".56" stop-color="#64d769"/>
+      <stop offset="1" stop-color="#fecf2c"/>
+    </linearGradient>
+  </defs>
+  <g id="_01-Primary-_Vertical_Colour_Light-background_Swish_Logo_Primary_Light-BG" data-name="01-Primary-(Vertical)/Colour/Light-background/Swish_Logo_Primary_Light-BG">
+    <g id="Symbol_Colour" data-name="Symbol/Colour">
+      <g id="Right-Swirl">
+        <path id="Base-Shape" class="cls-1" d="M115.98,387.96c81.92,39.18,183.03,19.79,244.11-52.99,72.4-86.26,61.15-214.86-25.12-287.23l-57.35,68.33c67.4,56.54,76.18,157.01,19.62,224.4-45.1,53.74-119.35,71.68-181.26,47.49"/>
+        <path id="Light-Cast" class="cls-3" d="M115.98,387.96c81.92,39.18,183.03,19.79,244.11-52.99,7.48-8.91,14.07-18.28,19.77-27.99,9.65-59.94-11.57-123.3-61.46-165.16-12.68-10.64-26.4-19.2-40.76-25.75,67.39,56.54,76.17,157,19.61,224.39-45.1,53.74-119.35,71.68-181.26,47.49"/>
+      </g>
+      <g id="Left-Swirl">
+        <path id="Base-shape" class="cls-2" d="M291.83,19.86C209.91-19.32,108.8,.07,47.72,72.84-24.68,159.1-13.43,287.7,72.84,360.08l57.35-68.33c-67.4-56.54-76.18-157.01-19.62-224.4C155.66,13.61,229.92-4.34,291.83,19.86"/>
+        <path id="Shadow" class="cls-4" d="M291.83,19.86C209.91-19.32,108.8,.07,47.72,72.84c-7.48,8.91-14.07,18.28-19.77,27.99-9.65,59.94,11.57,123.3,61.46,165.16,12.68,10.64,26.4,19.2,40.76,25.75-67.39-56.54-76.17-157-19.61-224.39C155.66,13.61,229.92-4.34,291.83,19.86"/>
+      </g>
+    </g>
+  </g>
+</svg>

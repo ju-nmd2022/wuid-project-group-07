@@ -1,0 +1,50 @@
+* {
+    font-family: 'Baloo Da 2', sans-serif;
+                                                
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+.vertical-menu {
+    width: 400px;
+    font-size: 28pt;
+    margin: 5px;
+    margin-top: 140px;
+    margin-left: 150px;
+    border-bottom: 1px solid black;
+    
+}
+
+.menu1 {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.menu2 {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+}
+
+.vertical-menu a {
+    background-color: #eeeeee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #aaaaaa;
+}
+
+
+.cross {
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 38px;
+
+}
+

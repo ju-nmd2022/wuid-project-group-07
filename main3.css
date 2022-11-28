@@ -1,0 +1,321 @@
+* {
+    font-family: 'Baloo Da 2', sans-serif;
+                                                
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+
+.menu {
+    
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    
+}
+
+.icons {
+    display: flex;
+    margin-right: 40px;
+    margin-top: -7px;
+}
+
+.hamburger {
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 38px;
+}
+
+.account {
+    width: 35px;
+    margin-top: 24px;
+    margin-left: 50px;
+}
+
+.list {
+    width: 35px;
+    margin-top: 8px;
+    margin-left: 50px;
+}
+
+.heart-top {
+    width: 35px;
+    margin-top: 8px;
+    margin-left: 50px;
+}
+
+
+
+.headline-order { 
+    margin-top: 80px;
+    font-size: 40pt;
+    text-decoration: underline;
+    margin-left: 116px;
+}
+
+    
+    .box {
+        width: 600px;
+        height: 240px;
+        background-color: #ffffff;
+        border-radius: 11px;
+        
+
+    }
+
+
+    .image {
+        height: 220px;
+        border-radius: 11px;
+        margin-top: 10px;
+        margin-left: 10px;
+
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 15px;
+    }
+
+
+
+    .container {
+        margin-top: 60px;
+        margin-left: 116px;
+        margin-bottom: 50px;
+    }
+
+    .sek-box {
+        background-color: #dddddd;
+        width: 100px;
+        height: 45px;
+        border-radius: 6px;
+        font-size: 17pt;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        margin-top: 110px;
+        
+    }
+
+    .elements2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .trash {
+        width: 45px;
+        margin-top: 115px;
+        margin-left: 50px;
+    }
+
+
+
+    .meal {
+        margin-top: 20px;
+        font-size: 20pt;
+        font-weight: 500;
+        
+
+    }
+        
+        
+        
+
+
+    .sub-heading2, .sub-heading3, .sub-heading4, .sub-heading5 {
+        font-size: 25pt;
+        text-transform: uppercase;
+        font-weight: 500;
+        
+        
+    }
+
+.ingredients-list, .info-list {
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+
+.total {
+    font-weight: bold;
+}
+
+.info-li {
+    background-color: #ffffff;
+    border-radius: 11px; 
+    padding-left: 60px;
+        padding-bottom: 50px;
+        height: 200px;
+        width: 350px;
+        line-height: 70px;
+        padding-top: 50px;
+        padding-right: 10px;
+}
+
+
+
+.ingredients-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;column-gap: 3rem;
+    margin-left: 120px;
+
+}
+
+
+    .plus-add {
+        width: 25px;
+        height: 25px;
+        background-color: #f5d151;
+        padding: 4px;
+        border-radius: 6px;
+        margin-top: 7px;
+        margin-left: 6px;
+    }
+
+    .text-add1, .text-add2 {
+        font-size: 14pt;
+        font-weight: 500;
+        width: 400px;
+        margin-left: 10px;
+        margin-top: 10px;
+       
+        
+    }
+
+.grid1, .grid2 {
+    display: flex;
+    background-color: #ffffff;
+    height: 45px;
+    padding: 6px;
+    border-radius: 6px;
+    width: 410px;
+
+
+}
+
+.grid2 {
+    margin-top: 15px;
+}
+
+.payment {
+    grid-column: 2;
+}
+
+.address {
+    grid-column: 2;
+}
+
+
+    .address-box {
+        background-color: #ffffff;
+        height: 120px;
+        width: 420px;
+        border-radius: 6px;
+    
+    
+    }
+    
+    .address-type {
+        margin-left: 20px;
+        padding-top: 10px;
+    }
+    
+    
+    
+        .card-add {
+            width: 47px;
+            margin-left: 4px;
+            
+        }  
+    
+
+.order-button {
+    background-color: #f5d151;
+    width: 230px;
+    height: 70px;
+    font-size: 18pt;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    border-radius: 11px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+
+
+.order-button-text {
+    margin-top: 18px;
+}
+
+.footer-all {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #aaaaaa;
+    margin-top: 150px;
+    padding-top: 15px;
+}
+
+.footer {
+    width: 100%;
+    height: 170px;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+}
+
+
+.instagram {
+    width: 40px;
+    height: 40px;
+    margin-top: 60px;
+    padding: 5px;
+}
+
+
+.facebook {
+    width: 33px;
+    padding-right: 9px;
+}
+
+.twt {
+    width: 45px;
+    padding-left: 3px;
+}
+
+.follow {
+    font-size: 18pt;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-right: -120px;
+
+}
+
+
+.home-f, .policy-f, .tc-f {
+    margin-left: 80px;
+    text-transform: uppercase;
+    font-size: 17px;
+
+}
+
+
+
