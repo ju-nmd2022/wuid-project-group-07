@@ -430,9 +430,73 @@ body {
             font-size: 17pt;
             font-weight: 550;
             margin-left: 10px;
-            display: flex;
             display: inline;
+            height: 10px;
+            margin-top: 260px;
         }
+
+
+       .star-rating1 {
+        display: flex;
+        flex-direction: row;
+       }
+
+       .star-rating2 {
+        display: flex;
+        flex-direction: row;
+       }
+
+       .star-rating3 {
+        display: flex;
+        flex-direction: row;
+       }
+
+       .star-rating4 {
+        display: flex;
+        flex-direction: row;
+       }
+
+       .star-rating5 {
+        display: flex;
+        flex-direction: row;
+       }
+
+       .star-rating6 {
+        display: flex;
+        flex-direction: row;
+       }
+
+       .star-rating7 {
+        display: flex;
+        flex-direction: row;
+       }
+
+       .star-rating8 {
+        display: flex;
+        flex-direction: row;
+       }
+
+       .star-rating9 {
+        display: flex;
+        flex-direction: row;
+       }
+
+       .star-rating10 {
+        display: flex;
+        flex-direction: row;
+       }
+
+       .star-rating11 {
+        display: flex;
+        flex-direction: row;
+       }
+
+       .star-rating12 {
+        display: flex;
+        flex-direction: row;
+       }
+    
+
 
     
     /*
