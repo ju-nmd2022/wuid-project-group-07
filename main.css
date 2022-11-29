@@ -167,13 +167,7 @@ body {
     left: 2rem;
 }
 
-.black-box {
-    background-color: black;
-    border-radius: 11px;
-    opacity: 0.7;
-    padding-bottom: 1rem;
-    
-}
+
 
 
 .heading {
@@ -183,8 +177,7 @@ body {
     font-weight: 600;
     color: #ffffff;
     display: block;
-    margin-bottom: 60px;
-    padding-left: 30px;
+    margin-bottom: 80px;
     
  
 }
@@ -195,7 +188,7 @@ body {
     width: 530px;
     height: 35px;
     border-radius: 5px;
-    margin-top: 20px; 
+    margin-top: 50px; 
 }
 
 .icon {

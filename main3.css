@@ -126,6 +126,68 @@ body {
         margin-left: 50px;
     }
 
+.container2 {
+    display: flex;
+    margin-left: 170px;
+
+
+}
+
+
+.value-box {
+    width: 140px;
+    height: 50px;
+    background-color: #f5d151;
+    border-radius: 7px; 
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.05); 
+
+
+
+}
+
+.plus-box {
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    background-color: #f5d151;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.05); 
+    
+}
+
+.plus {
+    width: 35px;
+   
+}
+
+.minus {
+    width: 35px;
+
+    
+}
+
+.one {
+    font-size: 25pt;
+    width: 50px;
+    height: 50px;
+   
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+
+.add {
+    width: 50px;
+
+}
 
 
     .meal {
