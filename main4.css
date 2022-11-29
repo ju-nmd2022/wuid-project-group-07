@@ -117,3 +117,92 @@ body {
 
 }
 
+
+
+
+@media screen and (max-width: 890px) {
+
+    .headline-proccess {
+        margin-top: 80px;
+        font-size: 30pt;
+        text-decoration: underline;
+        margin-left: 30px;
+    }
+
+
+    .background {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 10px;
+        background-color: #ffffff;
+        width: 350px;
+        height: 700px;
+        border-radius: 11px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20); 
+        margin-bottom: 100px;
+    }
+    
+    .proccess-text1, .proccess-text2 {
+        
+        color: black;
+        font-size: 14pt;
+    }
+
+    .proccess-text1 {
+        grid-row: 1;
+        margin-top: 20px;
+        height: 100px;
+        
+    }
+
+    .proccess-text2 {
+        grid-row: 2;
+    }
+
+
+
+    
+    .step1 {
+        position: absolute;
+        width: 300px;
+        height: 100px;
+        margin-left: 30px;
+        
+    }
+    
+    .step2 {
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        margin-left: 30px;
+        
+    
+    }
+    
+    .sub-head1 {
+        font-weight: bold;
+        position: absolute;
+        width: 300px;
+        height: 100px;
+        margin-left: 30px;
+        
+    }
+    
+    .sub-head2 {
+        font-weight: bold;
+        position: absolute;
+        width: 300px;
+        height: 100px;
+        margin-left: 30px;
+        
+        
+    
+    }
+    
+
+}
+
+
+
