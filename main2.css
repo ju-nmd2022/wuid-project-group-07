@@ -1,67 +1,11 @@
 * {
 
-    font-family: "Baloo Da 2", sans-serif;
-   }
-    
-   body {
-    background-color: #ffffff;
-   }
-    
-   .menu {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 70px;
-    background-color: #ffffff;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10); 
-   }
-    
-   .icons {
-    display: flex;
-    margin-right: 40px;
-    margin-top: -7px;
-   }
-    
-   .hamburger {
-    width: 40px;
-    margin-top: 15px;
-    margin-left: 38px;
-   }
-    
-   .account {
-    width: 35px;
-    margin-top: 25px;
-    margin-left: 50px;
-   }
-    
-   .list {
-    width: 35px;
-    margin-top: 8px;
-    margin-left: 50px;
-   }
-    
-   .heart-top {
-    width: 35px;
-    margin-top: 8px;
-    margin-left: 50px;
-   }
-    
-   .headphoto {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20); 
-   }
-    
-   .headline-breakfast {
-
   font-family: "Baloo Da 2", sans-serif;
-}
-
-body {
-  background-color: #ffffff;
-}
+  }
+    
+  body {
+    background-color: #ffffff;
+  }
 
 .menu {
   display: flex;
@@ -103,12 +47,11 @@ body {
 }
 
 .headphoto {
-  margin-top: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 85%;
-  border-radius: 11px;
+  width: 100%;
+  
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -408,8 +351,9 @@ body {
 }
 
 @media screen and (max-width: 890px) {
-  .headline-breakfast {
 
+
+  .headline-breakfast {
     margin-top: 80px;
     font-size: 30pt;
     text-decoration: underline;
@@ -429,9 +373,9 @@ body {
   .nested {
     display: grid;
     grid-column-gap: 25px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 0.5fr;
     justify-content: space-around;
-    margin-left: 160px;
+    margin-left: 100px;
     margin-right: 120px;
   }
 
@@ -512,21 +456,23 @@ body {
     margin-top: 10px;
     font-size: 17pt;
     text-transform: uppercase;
-    margin-left: 30px;
+    margin-left: 0px;
   }
 
   .info-list {
     grid-row: 2;
     border-radius: 11px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-bottom: 200px;
     height: 200px;
     width: 400px;
     line-height: 70px;
-
-    margin-top: 93px;
+    margin-right: 0px;
+    margin-top: 50px;
+    margin-left: 12px;
   }
+
 
   .info-li {
     grid-row: 2;
@@ -537,14 +483,15 @@ body {
     height: 200px;
     width: 320px;
     line-height: 50px;
-    padding-top: 30px;
+    padding-top: 40px;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
   }
 
   .ingredients-list {
     width: 390px;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-left: 10px;
   }
 
   .buttons {
@@ -732,359 +679,4 @@ body {
     margin-top: 55px;
   }
 
-  .sub-heading,
-  .sub-heading2,
-  .sub-heading3 {
-    font-size: 23pt;
-    text-transform: uppercase;
-    font-weight: 500;
-    margin-left: 30px;
-    margin-top: 40px;
-  }
-
-  .nested {
-    display: grid;
-    grid-column-gap: 25px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: space-around;
-    margin-left: 160px;
-    margin-right: 120px;
-  }
-
-  .kcal,
-  .protein,
-  .fat,
-  .carbs {
-    background-color: #eeeeee;
-    padding: 10px;
-    margin-top: 60px;
-    border-radius: 11px;
-    width: 120px;
-    height: 130px;
-    align-items: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-  }
-
-  .kcal {
-    background-color: #f5d151;
-  }
-
-  .box1,
-  .box2,
-  .box3,
-  .box4 {
-    background-color: white;
-    width: 120px;
-    height: 80px;
-    position: absolute;
-    border-radius: 11px;
-    font-size: 22pt;
-    font-weight: 500;
-    text-transform: uppercase;
-    justify-content: center;
-  }
-
-  .grams1,
-  .grams2,
-  .grams3,
-  .grams4 {
-    margin-top: 20px;
-  }
-
-  .kcal-text,
-  .protein-text,
-  .fat-text,
-  .carbs-text {
-    margin-top: 93px;
-    display: flex;
-    justify-content: center;
-    font-size: 17pt;
-    font-weight: 500;
-    text-transform: uppercase;
-  }
-
-  .kcal-box {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  .protein-box {
-    grid-column: 2;
-    grid-row: 1;
-  }
-
-  .fat-box {
-    grid-column: 1;
-    grid-row: 2;
-  }
-
-  .carbs-box {
-    grid-column: 2;
-    grid-row: 2;
-  }
-
-  .ingredients-info {
-    display: grid;
-    margin-top: 10px;
-    font-size: 17pt;
-    text-transform: uppercase;
-    margin-left: 30px;
-  }
-
-  .info-list {
-
-   grid-row: 2;
-   border-radius: 11px;
-   padding-left: 0px;
-   padding-right: 100px;
-   padding-bottom: 200px;
-   height: 200px;
-   width: 100px;
-   line-height: 70px;
-   margin-top: 93px;
-
-    grid-row: 2;
-    border-radius: 11px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 200px;
-    height: 200px;
-    width: 400px;
-    line-height: 70px;
-
-    margin-top: 93px;
-
-  }
-
-  .info-li {
-
-   grid-row: 2;
-   background-color: #eeeeee;
-        border-radius: 11px; 
-        padding-left: 50px;
-         padding-bottom: 0px;
-         height: 200px;
-         margin-right: 0px;
-         width: 320px;
-         line-height: 50px;
-         padding-top: 30px;
-         box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20); 
-
-    grid-row: 2;
-    background-color: #eeeeee;
-    border-radius: 11px;
-    padding-left: 50px;
-    padding-bottom: 0px;
-    height: 200px;
-    width: 320px;
-    line-height: 50px;
-    padding-top: 30px;
-
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-
-  }
-
-  .ingredients-list {
-    width: 390px;
-    margin-top: 100px;
-  }
-
-  .buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-around;
-    font-size: 20pt;
-    text-transform: uppercase;
-    font-weight: 500;
-    margin-top: 50px;
-  }
-
-  .button1,
-  .button2 {
-    background-color: #f5d151;
-    border-radius: 11px;
-    padding: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .button1 {
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    color: black;
-  }
-
-  .button2 {
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    color: black;
-  }
-
-  #Added {
-
-   background-color: #ffffff;
-   margin-left: 30px;
-   margin-right: 50px;
-   border-radius: 11px;
-   padding-top: 40px;
-   padding-bottom: 50px;
-   margin-top: 600px;
-   width: 350px;
-   height: 270px;
-   margin-bottom: 100px;
-   
-
-    background-color: #ffffff;
-    margin-left: 30px;
-    margin-right: 50px;
-    border-radius: 11px;
-    padding-top: 40px;
-    padding-bottom: 50px;
-    margin-top: 600px;
-    width: 350px;
-    height: 270px;
-
-  }
-
-  .Name1 {
-    text-align: center;
-    font-size: 40px;
-    margin-left: 20px;
-    text-transform: uppercase;
-    background-color: #ffffff;
-    font-weight: 550;
-  }
-
-  .Name2 {
-    text-align: center;
-    font-size: 40px;
-    /* margin-left: 350px; */
-    margin-top: 10px;
-    text-transform: uppercase;
-    background-color: #ffffff;
-    font-weight: 550;
-  }
-  /*
-     .Buttons {
-        
-     } */
-
-  .Buttons {
-    display: flex;
-    column-gap: 30px;
-    background-color: #ffffff;
-  }
-
-  /* https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block
-     center text */
-
-  .Continue {
-    text-align: center;
-    vertical-align: middle;
-    line-height: 30px;
-    background-color: #f5d151;
-    border-radius: 11px;
-    margin-top: 30px;
-    margin-left: 30px;
-    text-transform: uppercase;
-    font-size: 20px;
-    width: 600px;
-    height: 70px;
-    padding: 10px;
-    font-weight: 550;
-  }
-
-  .Order {
-    text-align: center;
-    vertical-align: middle;
-    line-height: 30px;
-    background-color: #f5d151;
-    border-radius: 11px;
-    margin-top: 30px;
-    margin-right: 30px;
-    text-transform: uppercase;
-    font-size: 20px;
-    width: 600px;
-    height: 70px;
-    padding: 10px;
-    font-weight: 550;
-  }
-
-  /* create overlay
-  https://www.w3schools.com/howto/howto_css_overlay.asp */
-
-  #overlay {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.8); /* Black background with opacity */
-    /* Specify a stack order in case you're using a different order for other elements */
-    /* Add a pointer on hover */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
-  }
-
-  .footer-all {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #aaaaaa;
-    margin-top: 150px;
-    padding-top: 15px;
-  }
-
-  .footer {
-    width: 100%;
-    height: 170px;
-  }
-
-  .footer2 {
-    display: flex;
-    flex-direction: row;
-    margin-left: 35px;
-  }
-
-  .instagram {
-    width: 33px;
-    height: 33px;
-    margin-top: 63px;
-    padding: 5px;
-  }
-
-  .facebook {
-    width: 28px;
-    padding-right: 9px;
-  }
-
-  .twt {
-    width: 38px;
-    padding-left: 3px;
-  }
-
-  .follow {
-    font-size: 18pt;
-    text-transform: uppercase;
-    font-weight: 400;
-    margin-right: -120px;
-  }
-
-  .home-f,
-  .policy-f,
-  .tc-f {
-    margin-left: 20px;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-  }
-
-  .home-f {
-    margin-top: 55px;
-  }
 }
