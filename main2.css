@@ -468,7 +468,7 @@
   .ingredients-info {
    display: grid;
    margin-top: 10px;
-   font-size: 18pt;
+   font-size: 17pt;
    text-transform: uppercase;
    margin-left: 30px;
   }
@@ -489,18 +489,19 @@
   .info-li {
    grid-row: 2;
    background-color: #eeeeee;
-   border-radius: 11px;
-   padding-left: 100px;
-   padding-bottom: 70px;
-   height: 200px;
-   width: 400px;
-   line-height: 70px;
-   padding-top: 50px;
-   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20); 
+        border-radius: 11px; 
+        padding-left: 50px;
+            padding-bottom: 0px;
+            height: 200px;
+            width: 320px;
+            line-height: 50px;
+            padding-top: 30px;
+            
+            box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20); 
   }
    
   .ingredients-list {
-   width: 600px;
+   width: 390px;
    margin-top: 100px;
   }
    
@@ -512,7 +513,7 @@
    font-size: 20pt;
    text-transform: uppercase;
    font-weight: 500;
-   margin-top: 100px;
+   margin-top: 50px;
   }
    
   .button1,
@@ -529,6 +530,17 @@
      display: inline-block;
      cursor: pointer;
      color: black;
+  }
+
+     .button2 {
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        color: black;
+        
+     }
+
+
      
   }
 
