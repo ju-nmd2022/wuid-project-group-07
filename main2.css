@@ -46,12 +46,10 @@
    }
     
    .headphoto {
-    margin-top: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
-    border-radius: 11px;
+    width: 100%;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20); 
    }
     
@@ -476,13 +474,12 @@
   .info-list {
    grid-row: 2;
    border-radius: 11px;
-   padding-left: 100px;
+   padding-left: 0px;
    padding-right: 100px;
    padding-bottom: 200px;
    height: 200px;
-   width: 400px;
+   width: 100px;
    line-height: 70px;
-   
    margin-top: 93px;
   }
    
@@ -491,13 +488,13 @@
    background-color: #eeeeee;
         border-radius: 11px; 
         padding-left: 50px;
-            padding-bottom: 0px;
-            height: 200px;
-            width: 320px;
-            line-height: 50px;
-            padding-top: 30px;
-            
-            box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20); 
+         padding-bottom: 0px;
+         height: 200px;
+         margin-right: 0px;
+         width: 320px;
+         line-height: 50px;
+         padding-top: 30px;
+         box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20); 
   }
    
   .ingredients-list {
@@ -555,6 +552,8 @@
    margin-top: 600px;
    width: 350px;
    height: 270px;
+   margin-bottom: 100px;
+   
   }
    
   .Name1 {
