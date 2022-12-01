@@ -1,9 +1,9 @@
 function openNav () {
-    document.getElementById ('navigation')
-.style.width = "670px"
+    document.getElementById ('side-navigation')
+.style.width = "414px"
 } 
 
 function closeNav () {
-    document.getElementById ('navigation')
+    document.getElementById ('side-navigation')
 .style.width = "0"
 } 

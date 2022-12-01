@@ -287,20 +287,22 @@ body {
 }
 
 
-    .address-box {
-        background-color: #ffffff;
-        height: 120px;
-        width: 420px;
-        border-radius: 6px;
-        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20); 
-    
-    
-    }
     
     .address-type {
         margin-left: 20px;
         padding-top: 10px;
     }
+
+
+    .search-bar {
+        background-color: #ffffff;
+        width: 420px;
+        padding-bottom: 100px;
+        border-radius: 6px;
+        border: none;
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20); 
+    }
+
     
     
     
@@ -311,29 +313,39 @@ body {
         }  
     
 
-.order-button {
-    background-color: #f5d151;
-    width: 230px;
-    height: 70px;
-    font-size: 18pt;
-    font-weight: 500;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    border-radius: 11px;
-    margin-top: 40px;
-    margin-left: 90px;
-}
-
-
-
-.order-button-text {
-    margin-top: 18px;
-    text-decoration: none;
-      display: inline-block;
-      cursor: pointer;
-      color: black;
-}
+        .order-button {
+            background-color: #f5d151;
+            width: 230px;
+            height: 70px;
+            font-size: 18pt;
+            font-weight: 500;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            border-radius: 11px;
+            margin-top: 50px;
+            margin-left: 70px;
+            text-decoration: none;
+            transition-duration: 0.1s;
+            cursor: pointer;
+    
+        }
+    
+        .order-button:hover {
+            background-color: #f5d151;
+            box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+            transform: scale(1.01); 
+        }
+        
+        
+        
+        .order-button-text {
+            margin-top: 18px;
+            text-decoration: none;
+              display: inline-block;
+              cursor: pointer;
+              color: black;
+        }
 
 .footer-all {
     display: grid;
@@ -710,6 +722,14 @@ body {
             padding-top: 10px;
         }
 
+        .search-bar {
+            width: 370px;
+            padding-bottom: 100px;
+            border-radius: 6px;
+            border: none;
+            box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20); 
+        }
+
        
         
         
@@ -733,6 +753,16 @@ body {
         border-radius: 11px;
         margin-top: 50px;
         margin-left: 70px;
+        text-decoration: none;
+        transition-duration: 0.1s;
+        cursor: pointer;
+
+    }
+
+    .order-button:hover {
+        background-color: #f5d151;
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+        transform: scale(1.01); 
     }
     
     

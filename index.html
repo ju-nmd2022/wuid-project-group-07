@@ -23,10 +23,16 @@
 
 <div class="menu">
 
-    <a href="index7.html">  
-    <img class="hamburger" src="images/hamburger.svg" alt="hamburger">
-    </a>  
-  
+    <div id="side-navigation" class="side-navigation">
+        <a href="javascript:void(0)" class="cross-button" onclick="closeNav()">&times;</a>
+            <a href="index8.html">Log In</a>
+            <a href="index9.html">Payment Method</a>
+            <a class="menu2" href="index.html">Find Recipes</a>
+            <a href="index3.html">Your Order</a>
+    </div>
+    <span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776;</span>
+
+    
     <div class="icons"> 
         <img class="heart-top" src="images/heart.svg" alt="">
         <img class="list" src="images/list.svg" alt="">
@@ -34,7 +40,7 @@
             <img class="account" src="images/account.svg" alt="">
         </a>
     </div>   
-  </div>
+</div>
 
 
 
@@ -49,16 +55,19 @@
         <div class="elements"> 
 
             
-           <div class="heading">Healthy Recipe Website</div> 
-            
-            <div class="search">
+            <div class="heading">Healthy Recipe Website</div> 
+        
+           <div class="bar">
+            <input class="search-bar" type="text" placeholder="Search...">
+            <button class="search-button" type="submit"><i>
                 <img class="icon" src="images/icon.svg" alt="">
-            </div> 
+            </i></button>
+            </div>
         </div> 
+
     </div>
 
 
-</div>
 
 
     <div class="nested">
