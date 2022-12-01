@@ -15,8 +15,6 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-
-
 .icons {
   display: flex;
   margin-right: 40px;
@@ -206,6 +204,18 @@ body {
   padding-right: 30px;
 }
 
+.button1:hover {
+  background-color: #f5d151;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+}
+
+.button2:hover {
+  background-color: #f5d151;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+}
+
 .button1 {
   text-decoration: none;
   display: inline-block;
@@ -336,6 +346,18 @@ body {
   height: 100px;
   padding: 10px;
   font-weight: 550;
+}
+
+.Continue:hover {
+  background-color: #f5d151;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+}
+
+.Order:hover {
+  background-color: #f5d151;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
 }
 
 /* create overlay
@@ -557,6 +579,18 @@ body {
     color: black;
   }
 
+  .button1:hover {
+    background-color: #f5d151;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+  }
+
+  .button2:hover {
+    background-color: #f5d151;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+  }
+
   #Added {
     background-color: #ffffff;
     margin-left: 30px;
@@ -631,6 +665,18 @@ body {
     height: 70px;
     padding: 10px;
     font-weight: 550;
+  }
+
+  .Continue:hover {
+    background-color: #f5d151;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+  }
+
+  .Order:hover {
+    background-color: #f5d151;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
   }
 
   /* create overlay

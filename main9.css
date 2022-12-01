@@ -3,93 +3,377 @@ html, body {
    overflow-x: hidden;
 }
 */
- 
+
 .cross {
+  width: 40px;
+  margin-top: 15px;
+  margin-left: 38px;
+}
+
+* {
+  font-family: "Baloo Da 2", sans-serif;
+  background-color: #eeeeee;
+}
+
+.Login {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+.CardtextBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 100px;
+}
+
+.choose-payment-method {
+  grid-column: 2;
+}
+
+.saved-cards {
+  grid-column: 1;
+}
+
+.Cardbox1 {
+  background-color: #ffffff;
+  border-radius: 11px;
+  width: 320px;
+  margin-top: 10px;
+  display: block;
+  margin-left: 220px;
+  /* margin-right: auto; */
+  border: 1px solid #000000;
+  display: flex;
+  height: 50px;
+  padding-left: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-add {
+  width: 47px;
+  margin-left: 4px;
+  background-color: #ffffff;
+}
+
+.card-add3 {
+  width: 38px;
+  margin-left: 4px;
+  background-color: #ffffff;
+}
+
+.text-add1,
+.text-add2 {
+  font-size: 14pt;
+  font-weight: 500;
+  width: 400px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: #ffffff;
+}
+
+.Cardbox2 {
+  background-color: #ffffff;
+  border-radius: 11px;
+  width: 320px;
+  margin-top: 30px;
+  display: block;
+  margin-left: 220px;
+  /* margin-right: auto; */
+  border: 1px solid #000000;
+  display: flex;
+  height: 50px;
+  padding-left: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.plus-add {
+  width: 25px;
+  height: 25px;
+  background-color: #f5d151;
+  padding: 4px;
+  border-radius: 6px;
+  margin-top: 7px;
+  margin-left: 6px;
+}
+
+.Cardstext1 {
+  margin-left: 230px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.Paymenttext {
+  margin-left: 270px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+  /* margin-top: 30px; */
+}
+
+.Paymentbox {
+  background-color: #ffffff;
+  border-radius: 11px;
+  padding-left: 10px;
+  height: 50px;
+  width: 320px;
+  margin-top: 10px;
+  /* margin-top: 30px; */
+  display: block;
+  margin-left: 230px;
+  /* margin-right: auto; */
+  border: 1px solid #000000;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.PopupBox {
+  background-color: #d9d9d9;
+  margin-left: 180px;
+  margin-right: 200px;
+  border-radius: 11px;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+.Name {
+  margin-top: -20px;
+}
+
+.Name,
+.Cardnumber {
+  background-color: #d9d9d9;
+  margin-left: 5px;
+}
+.Cardnumber {
+  margin-top: 5px;
+}
+
+.Expiration,
+.Code {
+  background-color: #d9d9d9;
+  margin-left: 58px;
+}
+
+.Namebox,
+.Cardnumberbox {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 11px;
+  padding: 25px;
+  width: 280px;
+  margin-top: 1px;
+  /* margin-top: 30px; */
+  display: block;
+  /* margin-left: 70px; */
+  /* margin-right: auto; */
+  border: 1px solid #000000;
+}
+
+.Expirationbox,
+.Codebox {
+  background-color: #ffffff;
+  border-radius: 11px;
+  padding: 25px;
+  width: 70px;
+  margin-top: 1px;
+  /* margin-top: 30px; */
+  display: block;
+  /* margin-left: 70px; */
+  /* margin-right: auto; */
+  border: 1px solid #000000;
+}
+
+.Columnboxes {
+  display: flex;
+  margin-top: 2px;
+  column-gap: 90px;
+  background-color: #d9d9d9;
+}
+
+.Cardnumber {
+  background-color: #d9d9d9;
+}
+.Columntext {
+  display: flex;
+  margin-top: 5px;
+  background-color: #d9d9d9;
+}
+
+.Expiration {
+  margin-left: 5px;
+}
+
+.Code {
+  margin-left: 100px;
+}
+
+.Swishbox {
+  background-color: #ffffff;
+  border-radius: 11px;
+  padding-left: 10px;
+  height: 50px;
+  width: 320px;
+  margin-top: 30px;
+  display: block;
+  margin-left: 230px;
+  border: 1px solid #000000;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.Paypalbox {
+  background-color: #ffffff;
+  border-radius: 11px;
+  width: 320px;
+  margin-top: 30px;
+  display: block;
+  margin-left: 230px;
+  border: 1px solid #000000;
+  display: flex;
+  padding-left: 10px;
+  height: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.Addcardbox {
+  text-align: center;
+  background-color: #f5d151;
+  border-radius: 11px;
+  padding: 10px;
+  width: 150px;
+  margin-top: 30px;
+  display: block;
+  margin-left: 300px;
+  font-size: 17pt;
+  font-weight: 500;
+}
+
+.Addcardbox:hover {
+  background-color: #f5d151;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+}
+
+.whole {
+  display: grid;
+  columns: 1fr 1fr;
+}
+
+.saved-cards {
+  grid-column: 1;
+}
+
+.choose-payment-method {
+  grid-column: 2;
+}
+
+@media screen and (max-width: 670px) {
+  .cross {
     width: 40px;
     margin-top: 15px;
     margin-left: 38px;
-   }
-    
-   * {
-    font-family: "Baloo Da 2", sans-serif;
-    background-color: #eeeeee;
-   }
-    
-   .Login {
+  }
+
+  .whole {
+    display: grid;
+    columns: 1fr;
+  }
+
+  .saved-cards {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .choose-payment-method {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .CardtextBox {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 100px;
+    grid-template-rows: minmax(100px, auto);
+  }
+
+  .saved-cards {
+    grid-row: 1;
+    margin-left: 0px;
+  }
+
+  .choose-payment-method {
+    grid-row: 2;
+    width: 400px;
+  }
+  .Login {
     text-align: center;
     font-size: 50px;
     margin-top: 50px;
     font-weight: 600;
-    
-   }
-    
-   .CardtextBox {
+  }
+
+  .CardtextBox {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-bottom: 100px;
-   }
-    
-   .choose-payment-method {
-    grid-column: 2;
-   }
-    
-   .saved-cards {
-    grid-column: 1;
-   }
-    
-   .Cardbox1 {
+  }
+
+  .Cardbox1 {
     background-color: #ffffff;
     border-radius: 11px;
     width: 320px;
     margin-top: 10px;
     display: block;
-    margin-left: 220px;
+    margin-left: 31px;
     /* margin-right: auto; */
     border: 1px solid #000000;
     display: flex;
     height: 50px;
     padding-left: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-   }
-    
-   .card-add {
+  }
+
+  .card-add {
     width: 47px;
     margin-left: 4px;
     background-color: #ffffff;
-   }
-    
-   .card-add3 {
+  }
+
+  .card-add3 {
     width: 38px;
     margin-left: 4px;
     background-color: #ffffff;
-   }
-    
-   .text-add1,
-   .text-add2 {
+  }
+
+  .text-add1,
+  .text-add2 {
     font-size: 14pt;
     font-weight: 500;
     width: 400px;
     margin-left: 10px;
     margin-top: 10px;
     background-color: #ffffff;
-   }
-    
-   .Cardbox2 {
+  }
+
+  .Cardbox2 {
     background-color: #ffffff;
     border-radius: 11px;
     width: 320px;
     margin-top: 30px;
     display: block;
-    margin-left: 220px;
+    margin-left: 31px;
     /* margin-right: auto; */
     border: 1px solid #000000;
     display: flex;
     height: 50px;
     padding-left: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-   }
-    
-   .plus-add {
+  }
+
+  .plus-add {
     width: 25px;
     height: 25px;
     background-color: #f5d151;
@@ -97,24 +381,24 @@ html, body {
     border-radius: 6px;
     margin-top: 7px;
     margin-left: 6px;
-   }
-    
-   .Cardstext1 {
-    margin-left: 230px;
+  }
+
+  .Cardstext1 {
+    margin-left: 50px;
     font-size: 20px;
     font-weight: bold;
     margin-top: 30px;
-   }
-    
-   .Paymenttext {
-    margin-left: 270px;
+  }
+
+  .Paymenttext {
+    margin-left: 50px;
     font-size: 20px;
     font-weight: bold;
     margin-top: 40px;
     /* margin-top: 30px; */
-   }
-    
-   .Paymentbox {
+  }
+
+  .Paymentbox {
     background-color: #ffffff;
     border-radius: 11px;
     padding-left: 10px;
@@ -123,43 +407,46 @@ html, body {
     margin-top: 10px;
     /* margin-top: 30px; */
     display: block;
-    margin-left: 230px;
+    margin-left: 31px;
     /* margin-right: auto; */
     border: 1px solid #000000;
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-   }
-    
-   .PopupBox {
+  }
+
+  .PopupBox {
     background-color: #d9d9d9;
-    margin-left: 180px;
+    margin-left: 9px;
     margin-right: 200px;
     border-radius: 11px;
-    padding: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-top: 30px;
-   }
-    
-   .Name {
+    width: 340px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .Name {
     margin-top: -20px;
-   }
-    
-   .Name,
-   .Cardnumber {
+  }
+
+  .Name,
+  .Cardnumber {
     background-color: #d9d9d9;
     margin-left: 5px;
-   }
-   .Cardnumber {
+  }
+  .Cardnumber {
     margin-top: 5px;
-   }
-    
-   .Expiration,
-   .Code {
+  }
+
+  .Expiration,
+  .Code {
     background-color: #d9d9d9;
     margin-left: 58px;
-   }
-    
-   .Namebox,
-   .Cardnumberbox {
+  }
+
+  .Namebox,
+  .Cardnumberbox {
     align-items: center;
     background-color: #ffffff;
     border-radius: 11px;
@@ -171,10 +458,10 @@ html, body {
     /* margin-left: 70px; */
     /* margin-right: auto; */
     border: 1px solid #000000;
-   }
-    
-   .Expirationbox,
-   .Codebox {
+  }
+
+  .Expirationbox,
+  .Codebox {
     background-color: #ffffff;
     border-radius: 11px;
     padding: 25px;
@@ -185,33 +472,33 @@ html, body {
     /* margin-left: 70px; */
     /* margin-right: auto; */
     border: 1px solid #000000;
-   }
-    
-   .Columnboxes {
+  }
+
+  .Columnboxes {
     display: flex;
     margin-top: 2px;
     column-gap: 90px;
     background-color: #d9d9d9;
-   }
-    
-   .Cardnumber {
+  }
+
+  .Cardnumber {
     background-color: #d9d9d9;
-   }
-   .Columntext {
+  }
+  .Columntext {
     display: flex;
     margin-top: 5px;
     background-color: #d9d9d9;
-   }
-    
-   .Expiration {
+  }
+
+  .Expiration {
     margin-left: 5px;
-   }
-    
-   .Code {
+  }
+
+  .Code {
     margin-left: 100px;
-   }
-    
-   .Swishbox {
+  }
+
+  .Swishbox {
     background-color: #ffffff;
     border-radius: 11px;
     padding-left: 10px;
@@ -219,343 +506,84 @@ html, body {
     width: 320px;
     margin-top: 30px;
     display: block;
-    margin-left: 230px;
+    margin-left: 31px;
     border: 1px solid #000000;
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-   }
-    
-   .Paypalbox {
+  }
+
+  .Paypalbox {
     background-color: #ffffff;
     border-radius: 11px;
     width: 320px;
     margin-top: 30px;
     display: block;
-    margin-left: 230px;
+    margin-left: 31px;
     border: 1px solid #000000;
     display: flex;
     padding-left: 10px;
     height: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-   }
-    
-   .Addcardbox {
+  }
+
+  .Addcardbox {
     text-align: center;
     background-color: #f5d151;
     border-radius: 11px;
     padding: 10px;
     width: 150px;
-    margin-top: 30px;
+    margin-top: 80px;
     display: block;
-    margin-left: 300px;
+    margin-left: 111px;
     font-size: 17pt;
-    font-weight: 500;
-   }
-    
-   @media screen and (max-width: 670px) {
-    .cross {
-      width: 40px;
-      margin-top: 15px;
-      margin-left: 38px;
-     }
-    
-    .CardtextBox {
-      display: grid;
-      grid-template-columns: 1fr;
-      margin-bottom: 100px;
-      grid-template-rows: minmax(100px, auto);
-    }
-    
+    font-weight: 600;
+  }
 
-    
-    .saved-cards {
-      grid-row: 1;
-      margin-left: 0px;
-    }
-    
-    .choose-payment-method {
-      grid-row: 2;
-      width: 400px;
-    }
-    .Login {
-      text-align: center;
-      font-size: 50px;
-      margin-top: 50px;
-      font-weight: 600;
-    }
-      
-     .CardtextBox {
-      display: grid;
-      grid-template-columns: 1fr;
-      margin-bottom: 100px;
-     }
-      
-     
-      
+  .loginBAddcardbox:hover {
+    background-color: #f5d151;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+  }
+}
 
-      
-     .Cardbox1 {
-      background-color: #ffffff;
-      border-radius: 11px;
-      width: 320px;
-      margin-top: 10px;
-      display: block;
-      margin-left: 31px;
-      /* margin-right: auto; */
-      border: 1px solid #000000;
-      display: flex;
-      height: 50px;
-      padding-left: 10px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-     }
-      
-     .card-add {
-      width: 47px;
-      margin-left: 4px;
-      background-color: #ffffff;
-     }
-      
-     .card-add3 {
-      width: 38px;
-      margin-left: 4px;
-      background-color: #ffffff;
-     }
-      
-     .text-add1,
-     .text-add2 {
-      font-size: 14pt;
-      font-weight: 500;
-      width: 400px;
-      margin-left: 10px;
-      margin-top: 10px;
-      background-color: #ffffff;
-     }
-      
-     .Cardbox2 {
-      background-color: #ffffff;
-      border-radius: 11px;
-      width: 320px;
-      margin-top: 30px;
-      display: block;
-      margin-left: 31px;
-      /* margin-right: auto; */
-      border: 1px solid #000000;
-      display: flex;
-      height: 50px;
-      padding-left: 10px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-     }
-      
-     .plus-add {
-      width: 25px;
-      height: 25px;
-      background-color: #f5d151;
-      padding: 4px;
-      border-radius: 6px;
-      margin-top: 7px;
-      margin-left: 6px;
-     }
-      
-     .Cardstext1 {
-      margin-left: 50px;
-      font-size: 20px;
-      font-weight: bold;
-      margin-top: 30px;
-     }
-      
-     .Paymenttext {
-      margin-left: 50px;
-      font-size: 20px;
-      font-weight: bold;
-      margin-top: 40px;
-      /* margin-top: 30px; */
-     }
-      
-     .Paymentbox {
-      background-color: #ffffff;
-      border-radius: 11px;
-      padding-left: 10px;
-      height: 50px;
-      width: 320px;
-      margin-top: 10px;
-      /* margin-top: 30px; */
-      display: block;
-      margin-left: 31px;
-      /* margin-right: auto; */
-      border: 1px solid #000000;
-      display: flex;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-     }
-      
-     .PopupBox {
-      background-color: #d9d9d9;
-      margin-left: 9px;
-      margin-right: 200px;
-      border-radius: 11px;
-      padding-left: 20px;
-      padding-right: 20px;
-      margin-top: 30px;
-      width: 340px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-     }
-      
-     .Name {
-      margin-top: -20px;
-     }
-      
-     .Name,
-     .Cardnumber {
-      background-color: #d9d9d9;
-      margin-left: 5px;
-     }
-     .Cardnumber {
-      margin-top: 5px;
-     }
-      
-     .Expiration,
-     .Code {
-      background-color: #d9d9d9;
-      margin-left: 58px;
-     }
-      
-     .Namebox,
-     .Cardnumberbox {
-      align-items: center;
-      background-color: #ffffff;
-      border-radius: 11px;
-      padding: 25px;
-      width: 280px;
-      margin-top: 1px;
-      /* margin-top: 30px; */
-      display: block;
-      /* margin-left: 70px; */
-      /* margin-right: auto; */
-      border: 1px solid #000000;
-     }
-      
-     .Expirationbox,
-     .Codebox {
-      background-color: #ffffff;
-      border-radius: 11px;
-      padding: 25px;
-      width: 70px;
-      margin-top: 1px;
-      /* margin-top: 30px; */
-      display: block;
-      /* margin-left: 70px; */
-      /* margin-right: auto; */
-      border: 1px solid #000000;
-     }
-      
-     .Columnboxes {
-      display: flex;
-      margin-top: 2px;
-      column-gap: 90px;
-      background-color: #d9d9d9;
-     }
-      
-     .Cardnumber {
-      background-color: #d9d9d9;
-     }
-     .Columntext {
-      display: flex;
-      margin-top: 5px;
-      background-color: #d9d9d9;
-     }
-      
-     .Expiration {
-      margin-left: 5px;
-     }
-      
-     .Code {
-      margin-left: 100px;
-     }
-      
-     .Swishbox {
-      background-color: #ffffff;
-      border-radius: 11px;
-      padding-left: 10px;
-      height: 50px;
-      width: 320px;
-      margin-top: 30px;
-      display: block;
-      margin-left: 31px;
-      border: 1px solid #000000;
-      display: flex;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-     }
-      
-     .Paypalbox {
-      background-color: #ffffff;
-      border-radius: 11px;
-      width: 320px;
-      margin-top: 30px;
-      display: block;
-      margin-left: 31px;
-      border: 1px solid #000000;
-      display: flex;
-      padding-left: 10px;
-      height: 50px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-     }
-      
-     .Addcardbox {
-      text-align: center;
-      background-color: #f5d151;
-      border-radius: 11px;
-      padding: 10px;
-      width: 150px;
-      margin-top: 80px;
-      display: block;
-      margin-left: 111px;
-      font-size: 17pt;
-      font-weight: 600;
-     }
-
-    }
-      
-    
-   /*
+/*
    Making a radio button
    https://www.google.se/search?q=make+selecion+button+html+css&sxsrf=ALiCzsZf60Wb3iG5BMF6FumujRkDgrXoEA%3A1669714302208&source=hp&ei=ftGFY4rfCJyMxc8PoNCSmAc&iflsig=AJiK0e8AAAAAY4XfjoKBaok7UzCePcwKHpUIZW2d-Xn_&ved=0ahUKEwiKluy-itP7AhUcRvEDHSCoBHMQ4dUDCAg&uact=5&oq=make+selecion+button+html+css&gs_lcp=Cgdnd3Mtd2l6EAMyBwghEKABEAoyBwghEKABEAoyCgghEBYQHhAKEB0yCgghEBYQHhAKEB0yCgghEBYQHhAKEB0yCgghEBYQHhAKEB0yCgghEBYQHhAKEB06BAgjECc6EQguEIAEELEDEIMBEMcBENEDOggIABCABBCxAzoICC4QsQMQgwE6CwgAEIAEELEDEIMBOgsILhCABBDHARCvAToECAAQQzoICC4QsQMQgAQ6BQgAEIAEOgsILhCABBCxAxDUAjoKCAAQgAQQsQMQCjoFCC4QgAQ6CggAEIAEEEYQ_wE6BwgAEIAEEA06BggAEB4QDToGCAAQFhAeOggIABAeEA8QDToICAAQBRAeEA06CAgAEAgQHhANOgkIABCABBANEBM6CAgAEBYQHhATUABYmtcDYLLYA2gCcAB4AIAB1gGIAfEckgEGOC4yMi4xmAEAoAEB&sclient=gws-wiz#fpstate=ive&vld=cid:5f868c65,vid:5K7JefKDa4s */
-   .radio {
-    display: inline-flex;
-    align-items: center;
-    cursor: pointer;
-    margin-right: 10px;
-    background-color: #ffffff;
-   }
-    
-   .radio_input {
-    display: none;
-   }
-    
-   .radio__radio {
-    width: 1.5em;
-    height: 1.5em;
-    border: 2px solid #f5d151;
-    border-radius: 50%;
-    /* margin right: 10px; */
-    box-sizing: border-box;
-    padding: 2px;
-    background-color: #ffffff;
-   }
-    
-   .radio__radio::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    display: block;
-    background: #f5d151;
-    border-radius: 50%;
-    
-    transform: scale(0);
-    transition: transform 0.15s;
-   }
-    
-   .radio_input:checked + .radio__radio::after {
-    transform: scale(1);
-   }
-    
-    
-  
+.radio {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+  background-color: #ffffff;
+}
+
+.radio_input {
+  display: none;
+}
+
+.radio__radio {
+  width: 1.5em;
+  height: 1.5em;
+  border: 2px solid #f5d151;
+  border-radius: 50%;
+  /* margin right: 10px; */
+  box-sizing: border-box;
+  padding: 2px;
+  background-color: #ffffff;
+}
+
+.radio__radio::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #f5d151;
+  border-radius: 50%;
+
+  transform: scale(0);
+  transition: transform 0.15s;
+}
+
+.radio_input:checked + .radio__radio::after {
+  transform: scale(1);
+}
