@@ -15,6 +15,8 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
+
+
 .icons {
   display: flex;
   margin-right: 40px;
@@ -57,8 +59,14 @@ body {
 .headline-breakfast {
   margin-top: 80px;
   font-size: 40pt;
-  text-decoration: underline;
   margin-left: 116px;
+}
+
+.line {
+  height: 1px;
+  width: 600px;
+  background-color: black;
+  margin-left: 110px;
 }
 
 .sub-heading {
@@ -372,8 +380,14 @@ body {
   .headline-breakfast {
     margin-top: 80px;
     font-size: 30pt;
-    text-decoration: underline;
     margin-left: 30px;
+  }
+
+  .line {
+    height: 1px;
+    width: 360px;
+    background-color: black;
+    margin-left: 20px;
   }
 
   .sub-heading,

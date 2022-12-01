@@ -61,9 +61,15 @@ body {
 .headline-order { 
     margin-top: 80px;
     font-size: 40pt;
-    text-decoration: underline;
     margin-left: 116px;
 }
+
+.line {
+    height: 1px;
+    width: 600px;
+    background-color: black;
+    margin-left: 110px;
+  } 
 
     
     .box {
@@ -457,9 +463,15 @@ body {
     .headline-order { 
         margin-top: 80px;
         font-size: 30pt;
-        text-decoration: underline;
         margin-left: 30px;
     }
+
+    .line {
+        height: 1px;
+        width: 350px;
+        background-color: black;
+        margin-left: 30px;
+      } 
     
         
         .box {

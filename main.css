@@ -27,7 +27,10 @@ body {
   transition: 0.5s;
   padding-top: 60px;
   
+  
 }
+
+
 
 
 .side-navigation a {
@@ -115,25 +118,27 @@ body {
 }
 
 .heading {
-  width: 400px;
+  width: 600px;
   height: 80px;
-  font-size: 35pt;
+  font-size: 50pt;
   font-weight: 600;
-  color: #ffffff;
+  color: black;
   display: block;
-  margin-bottom: 80px;
+  margin-bottom: 160px;
+  
 }
+
+
 
 .bar {
   display: flex;
 }
 
-
-
 .search-bar {
   border: none;
   width: 500px;
   height: 40px;
+  border-radius: 6px 0px 0px 6px;
 
 }
 
@@ -143,6 +148,7 @@ body {
   border: none;
   background-color: #ffffff;
   transition: 0.3s;
+  border-radius: 0px 6px 6px 0px;
 }
 
 .search-button:hover {
@@ -159,6 +165,9 @@ body {
   margin-left: 0px;
   margin-top: 2px;
 }
+
+
+
 
 .nested {
   display: flex;
@@ -216,12 +225,20 @@ body {
   width: 320px;
   border-radius: 11px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.7s;
+  transition: 0.5s;
 }
 
 .toast:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
   
+}
+
+.egg:hover {
+  transform: scale(1.08);
+}
+
+.oatmeal:hover {
+  transform: scale(1.08);
 }
 
 .image-text1 {
@@ -473,6 +490,20 @@ body {
   width: 320px;
   border-radius: 11px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.chicken:hover {
+  transform: scale(1.08);
+  
+}
+
+.pasta:hover {
+  transform: scale(1.08);
+}
+
+.salmon:hover {
+  transform: scale(1.08);
 }
 
 .image-text4 {
@@ -641,6 +672,20 @@ body {
   width: 320px;
   border-radius: 11px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.tart:hover {
+  transform: scale(1.08);
+  
+}
+
+.salad:hover {
+  transform: scale(1.08);
+}
+
+.bread:hover {
+  transform: scale(1.08);
 }
 
 .image-text7 {
@@ -809,8 +854,21 @@ body {
   width: 320px;
   border-radius: 11px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
 }
 
+.berries:hover {
+  transform: scale(1.08);
+  
+}
+
+.peach:hover {
+  transform: scale(1.08);
+}
+
+.banana:hover {
+  transform: scale(1.08);
+}
 .image-text10 {
   position: absolute;
 }
@@ -1089,20 +1147,39 @@ body {
     margin-bottom: 40px;
   }
 
-  .search {
+  .bar {
+    display: flex;
+  }
+  
+  
+  
+  .search-bar {
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 6px 0px 0px 6px;
+  
+  }
+  
+  .search-button {
+    width: 40px;
+    height: 42px;
+    border: none;
     background-color: #ffffff;
-    width: 230px;
-    height: 35px;
-    border-radius: 5px;
-    margin-top: 20px;
+    transition: 0.3s;
+    border-radius: 0px 6px 6px 0px;
+  }
+  
+  .search-button:hover {
+    background-color: #aaaaaa;
+    transform: scale(1.02);
+  
   }
 
-  .icon {
-    width: 30px;
-    height: 30px;
-    margin-left: 180px;
-    margin-top: 2px;
-  }
+
+
+
+ 
 
   .nested {
     display: flex;
@@ -1141,6 +1218,13 @@ body {
     margin-left: 50px;
   }
 
+  .line {
+    height: 1px;
+    width: 300px;
+    background-color: black;
+    margin-left: 50px;
+  }
+
   .container {
     display: flex;
     margin-left: 53px;
@@ -1158,7 +1242,21 @@ body {
     width: 290px;
     border-radius: 11px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-  }
+    transition: 0.5s;
+}
+
+.toast:hover {
+  transform: scale(1.08);
+  
+}
+
+.egg:hover {
+  transform: scale(1.08);
+}
+
+.oatmeal:hover {
+  transform: scale(1.08);
+}
 
   .image-text1 {
     position: absolute;
@@ -1367,23 +1465,7 @@ body {
     flex-direction: row;
   }
 
-  /*
-                .rating {
-                    font-size: 17pt;
-                    font-weight: 550;
-                    margin-left: 10px;
-                    grid-column: 2;
-                    position: absolute;
-                    
-                }
-        
-        
-                .star-rating1 {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                }
-        
-            */
+
 
   .heart-box {
     width: 50px;
@@ -1422,6 +1504,20 @@ body {
     width: 290px;
     border-radius: 11px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+  }
+  
+  .chicken:hover {
+    transform: scale(1.08);
+    
+  }
+  
+  .pasta:hover {
+    transform: scale(1.08);
+  }
+  
+  .salmon:hover {
+    transform: scale(1.08);
   }
 
   .image-text4 {
@@ -1585,7 +1681,21 @@ body {
     width: 290px;
     border-radius: 11px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-  }
+    transition: 0.5s;
+}
+
+.tart:hover {
+  transform: scale(1.08);
+  
+}
+
+.salad:hover {
+  transform: scale(1.08);
+}
+
+.bread:hover {
+  transform: scale(1.08);
+}
 
   .image-text7 {
     position: absolute;
@@ -1748,7 +1858,21 @@ body {
     width: 290px;
     border-radius: 11px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-  }
+    transition: 0.5s;
+}
+
+.berries:hover {
+  transform: scale(1.08);
+  
+}
+
+.peach:hover {
+  transform: scale(1.08);
+}
+
+.banana:hover {
+  transform: scale(1.08);
+}
 
   .image-text10 {
     position: absolute;
