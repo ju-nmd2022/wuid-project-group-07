@@ -32,6 +32,7 @@
   margin-left: auto;
   margin-right: auto;
   border: 1px solid #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .texts {
@@ -56,6 +57,7 @@
   margin-left: auto;
   margin-right: auto;
   border: 1px solid #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .accounttext {
@@ -114,6 +116,7 @@
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   }
 
   .texts {
@@ -138,6 +141,7 @@
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   }
 
   .accounttext {
