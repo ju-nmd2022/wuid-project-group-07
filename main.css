@@ -122,11 +122,11 @@ body {
   text-shadow: 3px 3px 3px black;
 }
 
-.bar {
+.bardesktop {
   display: flex;
 }
 
-.search-bar {
+.search-bardesk {
   border: none;
   width: 500px;
   height: 40px;
@@ -134,7 +134,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-.search-button {
+.search-buttondesk {
   width: 40px;
   height: 42px;
   border: none;
@@ -143,12 +143,12 @@ body {
   border-radius: 0px 6px 6px 0px;
 }
 
-.search-button:hover {
+.search-buttondesk:hover {
   background-color: #aaaaaa;
   transform: scale(1.02);
 }
 
-.icon {
+.icondesk {
   width: 25px;
   height: 25px;
 
@@ -1051,6 +1051,37 @@ body {
   display: none;
 }
 
+.bar {
+  display: flex;
+  margin-top: 30px;
+}
+
+.search-bar {
+  border: none;
+  width: 260px;
+  height: 40px;
+  border-radius: 6px 0px 0px 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.search-button {
+  width: 40px;
+  height: 42px;
+  border: none;
+  background-color: #ffffff;
+  transition: 0.3s;
+  border-radius: 0px 6px 6px 0px;
+  box-shadow: 10 0px 5px -2px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.search-button:hover {
+  background-color: #aaaaaa;
+  transform: scale(1.02);
+  display: none;
+}
+
 @media screen and (max-width: 670px) {
   .Mobileheadphoto {
     display: block;
@@ -1194,6 +1225,7 @@ body {
     height: 40px;
     border-radius: 6px 0px 0px 6px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    display: block;
   }
 
   .search-button {
@@ -1204,11 +1236,22 @@ body {
     transition: 0.3s;
     border-radius: 0px 6px 6px 0px;
     box-shadow: 10 0px 5px -2px rgba(0, 0, 0, 0.2);
+    display: block;
   }
 
   .search-button:hover {
     background-color: #aaaaaa;
     transform: scale(1.02);
+    display: block;
+  }
+
+  .icon {
+    width: 25px;
+    height: 25px;
+
+    margin-left: 0px;
+    margin-top: 2px;
+    display: block;
   }
 
   .nested {
@@ -2096,5 +2139,44 @@ body {
 
   .home-f {
     margin-top: 55px;
+  }
+
+  .bardesktop {
+    display: flex;
+    display: none;
+  }
+
+  .search-bardesk {
+    border: none;
+    width: 500px;
+    height: 40px;
+    border-radius: 6px 0px 0px 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    display: none;
+  }
+
+  .search-buttondesk {
+    width: 40px;
+    height: 42px;
+    border: none;
+    background-color: #ffffff;
+    transition: 0.3s;
+    border-radius: 0px 6px 6px 0px;
+    display: none;
+  }
+
+  .search-buttondesk:hover {
+    background-color: #aaaaaa;
+    transform: scale(1.02);
+    display: none;
+  }
+
+  .icondesk {
+    width: 25px;
+    height: 25px;
+
+    margin-left: 0px;
+    margin-top: 2px;
+    display: none;
   }
 }
