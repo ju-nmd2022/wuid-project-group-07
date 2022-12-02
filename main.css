@@ -26,12 +26,7 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  
-  
 }
-
-
-
 
 .side-navigation a {
   padding: 8px 8px 8px 32px;
@@ -41,14 +36,11 @@ body {
   display: block;
   transition: 0.3s;
   line-height: 60px;
-  
 }
 
 .side-navigation a:hover {
   color: #f5d151;
-  
 }
-
 
 .side-navigation .cross {
   position: absolute;
@@ -56,17 +48,12 @@ body {
   right: 25px;
   font-size: 25px;
   margin-left: 50px;
-  
 }
 
 .cross-button {
   margin-left: 330px;
   margin-bottom: 10px;
-
 }
-
-
-
 
 .icons {
   display: flex;
@@ -125,10 +112,7 @@ body {
   color: black;
   display: block;
   margin-bottom: 160px;
-  
 }
-
-
 
 .bar {
   display: flex;
@@ -139,7 +123,6 @@ body {
   width: 500px;
   height: 40px;
   border-radius: 6px 0px 0px 6px;
-
 }
 
 .search-button {
@@ -154,20 +137,15 @@ body {
 .search-button:hover {
   background-color: #aaaaaa;
   transform: scale(1.02);
-
 }
-
 
 .icon {
   width: 25px;
   height: 25px;
-  
+
   margin-left: 0px;
   margin-top: 2px;
 }
-
-
-
 
 .nested {
   display: flex;
@@ -230,7 +208,6 @@ body {
 
 .toast:hover {
   transform: scale(1.08);
-  
 }
 
 .egg:hover {
@@ -495,7 +472,6 @@ body {
 
 .chicken:hover {
   transform: scale(1.08);
-  
 }
 
 .pasta:hover {
@@ -677,7 +653,6 @@ body {
 
 .tart:hover {
   transform: scale(1.08);
-  
 }
 
 .salad:hover {
@@ -859,7 +834,6 @@ body {
 
 .berries:hover {
   transform: scale(1.08);
-  
 }
 
 .peach:hover {
@@ -1073,8 +1047,8 @@ body {
     display: block;
     width: 100%;
     height: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
   }
-
 
   .side-navigation {
     height: 100%;
@@ -1087,33 +1061,28 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-}
+  }
 
-
-.side-navigation a {
+  .side-navigation a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 20pt;
     color: white;
     display: block;
     transition: 0.3s;
-}
+  }
 
-.side-navigation a:hover {
+  .side-navigation a:hover {
     color: #f5d151;
-}
+  }
 
-
-.side-navigation .cross {
+  .side-navigation .cross {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 25px;
     margin-left: 50px;
-}
-
-
-
+  }
 
   .headphoto {
     display: none;
@@ -1150,17 +1119,14 @@ body {
   .bar {
     display: flex;
   }
-  
-  
-  
+
   .search-bar {
     border: none;
     width: 200px;
     height: 40px;
     border-radius: 6px 0px 0px 6px;
-  
   }
-  
+
   .search-button {
     width: 40px;
     height: 42px;
@@ -1169,17 +1135,11 @@ body {
     transition: 0.3s;
     border-radius: 0px 6px 6px 0px;
   }
-  
+
   .search-button:hover {
     background-color: #aaaaaa;
     transform: scale(1.02);
-  
   }
-
-
-
-
- 
 
   .nested {
     display: flex;
@@ -1243,20 +1203,19 @@ body {
     border-radius: 11px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     transition: 0.5s;
-}
+  }
 
-.toast:hover {
-  transform: scale(1.08);
-  
-}
+  .toast:hover {
+    transform: scale(1.08);
+  }
 
-.egg:hover {
-  transform: scale(1.08);
-}
+  .egg:hover {
+    transform: scale(1.08);
+  }
 
-.oatmeal:hover {
-  transform: scale(1.08);
-}
+  .oatmeal:hover {
+    transform: scale(1.08);
+  }
 
   .image-text1 {
     position: absolute;
@@ -1465,8 +1424,6 @@ body {
     flex-direction: row;
   }
 
-
-
   .heart-box {
     width: 50px;
     height: 40px;
@@ -1506,16 +1463,15 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     transition: 0.5s;
   }
-  
+
   .chicken:hover {
     transform: scale(1.08);
-    
   }
-  
+
   .pasta:hover {
     transform: scale(1.08);
   }
-  
+
   .salmon:hover {
     transform: scale(1.08);
   }
@@ -1682,20 +1638,19 @@ body {
     border-radius: 11px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     transition: 0.5s;
-}
+  }
 
-.tart:hover {
-  transform: scale(1.08);
-  
-}
+  .tart:hover {
+    transform: scale(1.08);
+  }
 
-.salad:hover {
-  transform: scale(1.08);
-}
+  .salad:hover {
+    transform: scale(1.08);
+  }
 
-.bread:hover {
-  transform: scale(1.08);
-}
+  .bread:hover {
+    transform: scale(1.08);
+  }
 
   .image-text7 {
     position: absolute;
@@ -1859,20 +1814,19 @@ body {
     border-radius: 11px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     transition: 0.5s;
-}
+  }
 
-.berries:hover {
-  transform: scale(1.08);
-  
-}
+  .berries:hover {
+    transform: scale(1.08);
+  }
 
-.peach:hover {
-  transform: scale(1.08);
-}
+  .peach:hover {
+    transform: scale(1.08);
+  }
 
-.banana:hover {
-  transform: scale(1.08);
-}
+  .banana:hover {
+    transform: scale(1.08);
+  }
 
   .image-text10 {
     position: absolute;
