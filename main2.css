@@ -383,6 +383,26 @@ body {
   display: none;
 }
 
+.heart {
+  /* position: absolute; */
+  width: 40px;
+  display: none;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin-top: -30px;
+  margin-left: 240px;
+  transition: 0.2s;
+  display: none;
+}
+
 @media screen and (max-width: 890px) {
   .Mobileheadphoto2 {
     display: block;
@@ -391,17 +411,90 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
   }
 
+  .side-navigation {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .side-navigation a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20pt;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    line-height: 60px;
+  }
+
+  .side-navigation a:hover {
+    color: #f5d151;
+  }
+
+  .side-navigation .cross {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 25px;
+    margin-left: 50px;
+  }
+
+  .cross-button {
+    margin-left: 330px;
+    margin-bottom: 10px;
+  }
+
+  .heart {
+    /* position: absolute; */
+    width: 40px;
+    display: block;
+  }
+
+  .circle {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin-top: -30px;
+    margin-left: 240px;
+    transition: 0.2s;
+  }
+
+  .circle:hover {
+    transform: scale(1.1);
+  }
+
   .headphoto {
     display: none;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
   }
 
+  .greybox {
+    display: flex;
+    justify-content: center;
+    width: 398px;
+    height: 50px;
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: -20px;
+    border-radius: 22px;
+  }
+
   .headline-breakfast {
-    margin-top: 80px;
+    margin-top: 40px;
     font-size: 30pt;
     margin-left: 30px;
   }
@@ -420,7 +513,7 @@ body {
     text-transform: uppercase;
     font-weight: 500;
     margin-left: 30px;
-    margin-top: 40px;
+    margin-top: 80px;
   }
 
   .nested {
