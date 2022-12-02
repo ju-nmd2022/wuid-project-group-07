@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="main3.css" />
+    <script src="javaIndex2.js" defer></script>
 
     <style>
       @import url("https://fonts.cdnfonts.com/css/baloo-da-2-2");
@@ -13,9 +14,22 @@
   </head>
   <body>
     <div class="menu">
-      <a href="index7.html">
-        <img class="hamburger" src="images/hamburger.svg" alt="hamburger" />
-      </a>
+      <div id="side-navigation" class="side-navigation">
+        <a href="javascript:void(0)" class="cross-button" onclick="closeNav()"
+          >&times;</a
+        >
+        <a class="menu1" href="index8.html">Log In</a>
+        <a href="index9.html">Payment Method</a>
+        <a class="menu2" href="index.html">Find Recipes</a>
+        <a href="index3.html">Your Order</a>
+      </div>
+      <span
+        class="hamburger"
+        style="font-size: 30px; cursor: pointer"
+        onclick="openNav()"
+      >
+        &#9776;</span
+      >
 
       <div class="icons">
         <img class="heart-top" src="images/heart.svg" alt="" />

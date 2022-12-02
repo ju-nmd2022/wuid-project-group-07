@@ -21,6 +21,50 @@ body {
   background-color: #ffffff;
 }
 
+.side-navigation {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  display: none;
+}
+
+.side-navigation a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20pt;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  line-height: 60px;
+  display: none;
+}
+
+.side-navigation a:hover {
+  color: #f5d151;
+}
+
+.side-navigation .cross {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 25px;
+  margin-left: 50px;
+  display: none;
+}
+
+.cross-button {
+  margin-left: 330px;
+  margin-bottom: 10px;
+  display: none;
+}
+
 .icons {
   display: flex;
   margin-right: 40px;
@@ -31,11 +75,12 @@ body {
   width: 40px;
   margin-top: 15px;
   margin-left: 38px;
+  display: none;
 }
 
 .account {
   width: 35px;
-  margin-top: 24px;
+  margin-top: 25px;
   margin-left: 50px;
 }
 
@@ -43,14 +88,15 @@ body {
   width: 35px;
   margin-top: 8px;
   margin-left: 50px;
+  display: none;
 }
 
 .heart-top {
   width: 35px;
   margin-top: 8px;
   margin-left: 50px;
+  display: none;
 }
-
 .headline-order {
   margin-top: 80px;
   font-size: 40pt;
@@ -399,6 +445,84 @@ body {
     margin-top: 80px;
     font-size: 30pt;
     margin-left: 30px;
+  }
+
+  .side-navigation {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: block;
+  }
+
+  .side-navigation a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20pt;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    line-height: 60px;
+    display: block;
+  }
+
+  .side-navigation a:hover {
+    color: #f5d151;
+  }
+
+  .side-navigation .cross {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 25px;
+    margin-left: 50px;
+    display: block;
+  }
+
+  .cross-button {
+    margin-left: 330px;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .icons {
+    display: flex;
+    margin-right: 40px;
+    margin-top: -4px;
+  }
+
+  .hamburger {
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 38px;
+    display: block;
+  }
+
+  .account {
+    width: 32px;
+    margin-top: 25px;
+    margin-left: 65px;
+    display: block;
+  }
+
+  .list {
+    width: 32px;
+    margin-top: 8px;
+    margin-left: 65px;
+    display: block;
+  }
+
+  .heart-top {
+    width: 32px;
+    margin-top: 8px;
+    margin-left: 50px;
+    display: block;
   }
 
   .line {
