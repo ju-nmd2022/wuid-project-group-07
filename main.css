@@ -2,6 +2,116 @@
   font-family: "Baloo Da 2", sans-serif;
 }
 
+/*
+<div class="icons">
+        <img class="heart-top" src="images/heart.svg" alt="" />
+        <img class="list" src="images/list.svg" alt="" /> 
+        <a href="index8.html">
+          <img class="account" src="images/account.svg" alt="" />
+        </a>
+      </div>
+
+*/
+
+.logo {
+  width: 100px;
+  margin-left: 20px;
+  display: block;
+  
+}
+
+.logo-mobile {
+  width: 100px;
+  margin-left: 20px;
+  display: none;
+}
+
+.web-menu-center {
+  font-size: 17pt;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 240px;
+  display: flex;
+}
+
+.cart-menu, .favourites-menu, .find-menu, .order-menu {
+  margin-left: 50px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  display: block;
+  transition: 0.1s;
+
+}
+
+.cart-menu:hover, .favourites-menu:hover, .find-menu:hover, .order-menu:hover {
+  text-decoration: underline;
+}
+
+
+
+.payment-menu {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  display: block;
+  transition: 0.1s;
+}
+
+.payment-menu:hover {
+  text-decoration: underline;
+}
+
+
+
+.account-icon {
+  display: flex;
+  margin-left: 200px;
+
+}
+
+.account {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: block;
+  
+}
+  
+
+
+.account-text {
+  margin-top: 20px;
+  font-size: 17pt;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  display: block;
+  
+}
+
+.account-text:hover {
+  text-decoration: underline;
+}
+
+.web-menu {
+  display: flex;
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
 body {
   background-color: #eeeeee;
 }
@@ -21,7 +131,7 @@ body {
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: black;
   overflow-x: hidden;
   transition: 0.5s;
@@ -338,23 +448,13 @@ body {
   margin-left: 10px;
 }
 
-.name-box1 {
+.name-box {
   font-size: 18pt;
+  font-weight: 500;
   margin-left: 20px;
   margin-top: 10px;
 }
 
-.name-box2 {
-  font-size: 18pt;
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-.name-box3 {
-  font-size: 18pt;
-  margin-left: 20px;
-  margin-top: 10px;
-}
 
 .star {
   width: 30px;
@@ -362,7 +462,7 @@ body {
   margin-top: 255px;
   display: flex;
   display: inline;
-  margin-top: 260px;
+  margin-top: 250px;
 }
 
 .rating {
@@ -371,7 +471,7 @@ body {
   margin-left: 10px;
   display: inline;
   height: 10px;
-  margin-top: 260px;
+  margin-top: 250px;
 }
 
 .star-rating1 {
@@ -599,23 +699,7 @@ body {
   margin-left: 10px;
 }
 
-.name-box4 {
-  font-size: 18pt;
-  margin-left: 20px;
-  margin-top: 10px;
-}
 
-.name-box5 {
-  font-size: 18pt;
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-.name-box6 {
-  font-size: 18pt;
-  margin-left: 20px;
-  margin-top: 10px;
-}
 
 .star4 {
   width: 30px;
@@ -780,23 +864,6 @@ body {
   margin-left: 10px;
 }
 
-.name-box7 {
-  font-size: 18pt;
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-.name-box8 {
-  font-size: 18pt;
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-.name-box9 {
-  font-size: 18pt;
-  margin-left: 20px;
-  margin-top: 10px;
-}
 
 .star7 {
   width: 30px;
@@ -960,23 +1027,6 @@ body {
   margin-left: 10px;
 }
 
-.name-box10 {
-  font-size: 18pt;
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-.name-box11 {
-  font-size: 18pt;
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-.name-box12 {
-  font-size: 18pt;
-  margin-left: 20px;
-  margin-top: 10px;
-}
 
 .star10 {
   width: 30px;
@@ -1096,7 +1146,7 @@ body {
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
+    right: 0;
     background-color: black;
     overflow-x: hidden;
     transition: 0.5s;
@@ -2179,4 +2229,91 @@ body {
     margin-top: 2px;
     display: none;
   }
+
+
+
+
+
+
+
+
+
+
+
+  .logo {
+    width: 100px;
+    margin-left: 20px;
+    
+    
+  }
+  
+  .web-menu-center {
+    font-size: 17pt;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 200px;
+    display: flex;
+  }
+  
+  .payment-menu, .cart-menu, .favourites-menu, .find-menu, .order-menu {
+    margin-left: 50px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    display: none;
+    transition: 0.3s;
+  
+  }
+
+  .payment-menu, .cart-menu, .favourites-menu, .find-menu, .order-menu:hover {
+    transform: scale(1.02);
+    color: #f5d151;
+  }
+  
+ 
+  
+  .account-icon {
+    display: flex;
+    margin-left: 200px;
+    
+    
+  
+  }
+  
+  .account {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: none;
+    
+  }
+    
+  
+  
+  .account-text {
+    margin-top: 20px;
+    font-size: 17pt;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    display: none;
+    
+    
+  }
+  
+  .web-menu {
+    display: flex;
+    display: none;
+    
+  }
+
+
+  .logo-mobile {
+    width: 100px;
+    margin-left: 0px;
+    display: block;
+  }
+  
 }
