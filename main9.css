@@ -292,7 +292,12 @@ html, body {
   .choose-payment-method {
     grid-column: 1;
     grid-row: 2;
+    margin-left: 0px;
   }
+
+
+  
+  
 
   .CardtextBox {
     display: grid;
@@ -304,6 +309,7 @@ html, body {
   .saved-cards {
     grid-row: 1;
     margin-left: 0px;
+    padding-right: 0px;
   }
 
   .choose-payment-method {

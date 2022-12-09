@@ -830,8 +830,9 @@ body {
     width: 400px;
     line-height: 70px;
     margin-right: 0px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: 12px;
+    margin-bottom: 50px;
   }
 
   .ingredients-list {
@@ -840,7 +841,7 @@ body {
     grid-row: 1;
     width: 385px;
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 0px;
   }
 
   .info-li {
@@ -1139,4 +1140,39 @@ body {
   .hide-web {
     display: block;
   }
+
+
+
+  .eggwrap-heading {
+    width: 400px;
+    height: 80px;
+    font-size: 40pt;
+    font-weight: 600;
+    color: #ffffff;
+    display: block;
+    line-height: 70px;
+    margin-top: 300px;
+    text-shadow: 3px 3px 5px #1b1b1b;
+    font-family: 'Inter', sans-serif;
+    margin-left: 10px;
+    display: none;
+  }
+  
+  .eggwrap-text {
+    position: absolute;
+    margin-top: 450px;
+    font-size: 16pt;
+    font-weight: 450;
+    margin-left: 50px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    text-shadow: 3px 3px 5px #1b1b1b;
+    width: 500px;
+    line-height: 30px;
+    display: none;
+  
+  }
+
+
+  
 }
