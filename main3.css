@@ -6,7 +6,6 @@
   width: 100px;
   margin-left: 20px;
   display: block;
-  
 }
 
 .logo-mobile {
@@ -23,7 +22,10 @@
   display: flex;
 }
 
-.cart-menu, .favourites-menu, .find-menu, .order-menu {
+.cart-menu,
+.favourites-menu,
+.find-menu,
+.order-menu {
   margin-left: 50px;
   text-decoration: none;
   display: inline-block;
@@ -31,14 +33,14 @@
   color: black;
   display: block;
   transition: 0.1s;
-
 }
 
-.cart-menu:hover, .favourites-menu:hover, .find-menu:hover, .order-menu:hover {
+.cart-menu:hover,
+.favourites-menu:hover,
+.find-menu:hover,
+.order-menu:hover {
   text-decoration: underline;
 }
-
-
 
 .payment-menu {
   text-decoration: none;
@@ -53,22 +55,16 @@
   text-decoration: underline;
 }
 
-
-
 .account-icon {
   display: flex;
   margin-left: 200px;
-
 }
 
 .account {
   margin-bottom: 10px;
   margin-right: 10px;
   display: block;
-  
 }
-  
-
 
 .account-text {
   margin-top: 20px;
@@ -79,7 +75,6 @@
   cursor: pointer;
   color: black;
   display: block;
-  
 }
 
 .account-text:hover {
@@ -88,12 +83,7 @@
 
 .web-menu {
   display: flex;
-  
-  
 }
-
-
-
 
 body {
   background-color: #eeeeee;
@@ -120,7 +110,7 @@ body {
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: black;
   overflow-x: hidden;
   transition: 0.5s;
@@ -943,23 +933,11 @@ body {
     margin-top: 55px;
   }
 
-
-
-
-
-
-
-
-
-
-
   .logo {
     width: 100px;
     margin-left: 20px;
-    
-    
   }
-  
+
   .web-menu-center {
     font-size: 17pt;
     font-weight: 600;
@@ -967,8 +945,12 @@ body {
     margin-left: 200px;
     display: flex;
   }
-  
-  .payment-menu, .cart-menu, .favourites-menu, .find-menu, .order-menu {
+
+  .payment-menu,
+  .cart-menu,
+  .favourites-menu,
+  .find-menu,
+  .order-menu {
     margin-left: 50px;
     text-decoration: none;
     display: inline-block;
@@ -976,33 +958,28 @@ body {
     color: black;
     display: none;
     transition: 0.3s;
-  
   }
 
-  .payment-menu, .cart-menu, .favourites-menu, .find-menu, .order-menu:hover {
+  .payment-menu,
+  .cart-menu,
+  .favourites-menu,
+  .find-menu,
+  .order-menu:hover {
     transform: scale(1.02);
     color: #f5d151;
   }
-  
- 
-  
+
   .account-icon {
     display: flex;
     margin-left: 200px;
-    
-    
-  
   }
-  
+
   .account {
     margin-bottom: 10px;
     margin-right: 10px;
     display: none;
-    
   }
-    
-  
-  
+
   .account-text {
     margin-top: 20px;
     font-size: 17pt;
@@ -1012,16 +989,12 @@ body {
     cursor: pointer;
     color: black;
     display: none;
-    
-    
   }
-  
+
   .web-menu {
     display: flex;
     display: none;
-    
   }
-
 
   .logo-mobile {
     width: 100px;
