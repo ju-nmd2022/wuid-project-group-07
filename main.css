@@ -1327,7 +1327,7 @@ body {
   
   
   .heading {
-    width: 400px;
+    width: 330px;
     height: 80px;
     font-size: 40pt;
     font-weight: 600;
@@ -1339,6 +1339,8 @@ body {
     margin-top: 10px;
     text-shadow: 3px 3px 5px #1b1b1b;
     font-family: 'Inter', sans-serif;
+    margin-right: 60px;
+    
   
   }
   
