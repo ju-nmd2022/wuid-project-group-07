@@ -1507,8 +1507,18 @@ body {
     margin-left: 10px;
     display: inline;
     height: 10px;
-    margin-top: 225px;
+    margin-top: 226px;
   }
+  
+  .reviews {
+    font-size: 14pt;
+    font-weight: 250;
+    margin-left: 10px;
+    display: inline;
+    height: 10px;
+    margin-top: 230px;
+  }
+  
 
   .star-rating1 {
     display: flex;
