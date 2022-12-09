@@ -15,6 +15,42 @@
   display: none;
 }
 
+.hide-web {
+  display: none;
+}
+
+
+.eggwrap-heading {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 50px;
+  font-size: 55pt;
+  width: 800px;
+  height: 80px;
+  font-weight: 600;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 0px;
+  text-shadow: 3px 3px 5px #1b1b1b;
+  font-family: 'Inter', sans-serif;
+  line-height: 110px;
+}
+
+.eggwrap-text {
+  position: absolute;
+  margin-top: 480px;
+  font-size: 16pt;
+  font-weight: 450;
+  margin-left: 50px;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  text-shadow: 3px 3px 5px #1b1b1b;
+  width: 500px;
+  line-height: 30px;
+  
+
+}
+
 
 .web-menu-center {
   font-size: 17pt;
@@ -1097,6 +1133,10 @@ body {
     width: 200px;
     margin-left: 10px;
     margin-top: 10px;
+    display: block;
+  }
+
+  .hide-web {
     display: block;
   }
 }
