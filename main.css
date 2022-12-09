@@ -17,7 +17,6 @@
   width: 100px;
   margin-left: 20px;
   display: block;
-  
 }
 
 .logo-mobile {
@@ -28,13 +27,16 @@
 
 .web-menu-center {
   font-size: 17pt;
-  font-weight: 500;
+  font-weight: 450;
   margin-top: 20px;
   margin-left: 240px;
   display: flex;
 }
 
-.cart-menu, .favourites-menu, .find-menu, .order-menu {
+.cart-menu,
+.favourites-menu,
+.find-menu,
+.order-menu {
   margin-left: 50px;
   text-decoration: none;
   display: inline-block;
@@ -42,14 +44,14 @@
   color: black;
   display: block;
   transition: 0.1s;
-
 }
 
-.cart-menu:hover, .favourites-menu:hover, .find-menu:hover, .order-menu:hover {
+.cart-menu:hover,
+.favourites-menu:hover,
+.find-menu:hover,
+.order-menu:hover {
   text-decoration: underline;
 }
-
-
 
 .payment-menu {
   text-decoration: none;
@@ -64,22 +66,17 @@
   text-decoration: underline;
 }
 
-
-
 .account-icon {
   display: flex;
   margin-left: 200px;
-
 }
 
 .account {
-  margin-bottom: 10px;
   margin-right: 10px;
-  display: block;
-  
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 50px;
 }
-  
-
 
 .account-text {
   margin-top: 20px;
@@ -90,7 +87,6 @@
   cursor: pointer;
   color: black;
   display: block;
-  
 }
 
 .account-text:hover {
@@ -99,18 +95,7 @@
 
 .web-menu {
   display: flex;
-  
-  
 }
-
-
-
-
-
-
-
-
-
 
 body {
   background-color: #eeeeee;
@@ -180,12 +165,6 @@ body {
   margin-top: 15px;
   margin-left: 38px;
   display: none;
-}
-
-.account {
-  width: 35px;
-  margin-top: 25px;
-  margin-left: 50px;
 }
 
 .list {
@@ -455,7 +434,6 @@ body {
   margin-top: 10px;
 }
 
-
 .star {
   width: 30px;
   margin-left: 20px;
@@ -472,6 +450,15 @@ body {
   display: inline;
   height: 10px;
   margin-top: 250px;
+}
+
+.reviews {
+  font-size: 14pt;
+  font-weight: 250;
+  margin-left: 10px;
+  display: inline;
+  height: 10px;
+  margin-top: 255px;
 }
 
 .star-rating1 {
@@ -699,8 +686,6 @@ body {
   margin-left: 10px;
 }
 
-
-
 .star4 {
   width: 30px;
   margin-left: 20px;
@@ -864,7 +849,6 @@ body {
   margin-left: 10px;
 }
 
-
 .star7 {
   width: 30px;
   margin-left: 20px;
@@ -1026,7 +1010,6 @@ body {
   width: 30px;
   margin-left: 10px;
 }
-
 
 .star10 {
   width: 30px;
@@ -2230,23 +2213,11 @@ body {
     display: none;
   }
 
-
-
-
-
-
-
-
-
-
-
   .logo {
     width: 100px;
     margin-left: 20px;
-    
-    
   }
-  
+
   .web-menu-center {
     font-size: 17pt;
     font-weight: 600;
@@ -2254,8 +2225,12 @@ body {
     margin-left: 200px;
     display: flex;
   }
-  
-  .payment-menu, .cart-menu, .favourites-menu, .find-menu, .order-menu {
+
+  .payment-menu,
+  .cart-menu,
+  .favourites-menu,
+  .find-menu,
+  .order-menu {
     margin-left: 50px;
     text-decoration: none;
     display: inline-block;
@@ -2263,33 +2238,28 @@ body {
     color: black;
     display: none;
     transition: 0.3s;
-  
   }
 
-  .payment-menu, .cart-menu, .favourites-menu, .find-menu, .order-menu:hover {
+  .payment-menu,
+  .cart-menu,
+  .favourites-menu,
+  .find-menu,
+  .order-menu:hover {
     transform: scale(1.02);
     color: #f5d151;
   }
-  
- 
-  
+
   .account-icon {
     display: flex;
     margin-left: 200px;
-    
-    
-  
   }
-  
+
   .account {
     margin-bottom: 10px;
     margin-right: 10px;
     display: none;
-    
   }
-    
-  
-  
+
   .account-text {
     margin-top: 20px;
     font-size: 17pt;
@@ -2299,21 +2269,16 @@ body {
     cursor: pointer;
     color: black;
     display: none;
-    
-    
   }
-  
+
   .web-menu {
     display: flex;
     display: none;
-    
   }
-
 
   .logo-mobile {
     width: 100px;
     margin-left: 0px;
     display: block;
   }
-  
 }
