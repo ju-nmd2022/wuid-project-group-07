@@ -14,9 +14,10 @@
 */
 
 .logo {
-  width: 100px;
-  margin-left: 20px;
+  width: 180px;
+  margin-left: 50px;
   display: block;
+  margin-top: 12px;
 }
 
 .logo-mobile {
@@ -29,7 +30,7 @@
   font-size: 17pt;
   font-weight: 450;
   margin-top: 20px;
-  margin-left: 240px;
+  margin-left: 160px;
   display: flex;
 }
 
@@ -196,23 +197,66 @@ body {
 
 .elements {
   position: absolute;
-  margin-top: 300px;
+  margin-top: 100px;
   margin-right: 400px;
 }
+.discount {
+  font-size: 20pt;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #f5d151;
+  border-radius: 22px;
+  width: 350px;
+  text-align: center;
+  margin-bottom: 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  
+}
+.sub-text {
+  font-size: 40pt;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 0px;
+  text-shadow: 3px 3px 5px #1b1b1b;
+}
+
+
+.under-text1 {
+  font-size: 16pt;
+  font-weight: 450;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  margin-top: 50px;
+  text-shadow: 3px 3px 5px #1b1b1b;
+}
+
+.under-text2 {
+  font-size: 16pt;
+  font-weight: 450;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  text-shadow: 3px 3px 5px #1b1b1b;
+}
+
 
 .heading {
-  width: 600px;
+  width: 800px;
   height: 80px;
-  font-size: 50pt;
+  font-size: 55pt;
   font-weight: 600;
-  color: rgb(255, 255, 255);
+  color: #f5d151;
   display: block;
-  margin-bottom: 160px;
-  text-shadow: 3px 3px 3px black;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  text-shadow: 3px 3px 5px #1b1b1b;
+  font-family: 'Inter', sans-serif;
+  line-height: 110px;
 }
 
 .bardesktop {
   display: flex;
+  margin-top: 70px;
 }
 
 .search-bardesk {
@@ -1230,11 +1274,58 @@ body {
 
   .elements {
     position: absolute;
-    margin-top: 300px;
+    margin-top: 70px;
     margin-right: 0px;
     margin-left: 30px;
   }
 
+  .discount {
+    font-size: 15pt;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #f5d151;
+    border-radius: 22px;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 130px;
+    padding: 5px;
+    margin-left: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+
+    
+  }
+  .sub-text {
+    font-size: 25pt;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0px;
+    text-shadow: 3px 3px 5px #1b1b1b;
+  }
+  
+  
+  .under-text1 {
+    font-size: 14pt;
+    font-weight: 450;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    margin-top: 50px;
+    text-shadow: 3px 3px 5px #1b1b1b;
+    width: 250px;
+    display: none;
+  }
+  
+  .under-text2 {
+    font-size: 14pt;
+    font-weight: 450;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    text-shadow: 3px 3px 5px #1b1b1b;
+    width: 250px;
+    display: none;
+  }
+  
+  
   .heading {
     width: 400px;
     height: 80px;
@@ -1244,8 +1335,14 @@ body {
     display: block;
     margin-bottom: 120px;
     line-height: 70px;
-    text-shadow: 3px 3px 3px black;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-shadow: 3px 3px 5px #1b1b1b;
+    font-family: 'Inter', sans-serif;
+  
   }
+  
+
 
   .bar {
     display: flex;
@@ -2287,8 +2384,9 @@ body {
   }
 
   .logo-mobile {
-    width: 100px;
-    margin-left: 0px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
     display: block;
   }
 }

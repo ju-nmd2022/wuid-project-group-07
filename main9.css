@@ -30,10 +30,12 @@ html, body {
 
 .choose-payment-method {
   grid-column: 2;
+  margin-left: 40px;
 }
 
 .saved-cards {
   grid-column: 1;
+  padding-right: 50px;
 }
 
 .Cardbox1 {
