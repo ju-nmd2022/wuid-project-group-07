@@ -77,8 +77,13 @@
   width: 200px;
   margin-top: 50px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 600px;
+  
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  justify-content: center;
 }
 
 .loginButton:hover {
@@ -94,9 +99,9 @@
   }
 
   .cross {
-    width: 40px;
+    width: 30px;
     margin-top: 15px;
-    margin-left: 38px;
+    margin-left: 20px;
   }
 
   .Login {
@@ -167,8 +172,11 @@
     width: 200px;
     margin-top: 50px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 93px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
   }
 
   .loginButton:hover {

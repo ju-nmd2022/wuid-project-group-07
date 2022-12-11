@@ -31,6 +31,7 @@ html, body {
 .choose-payment-method {
   grid-column: 2;
   margin-left: 40px;
+  width: 600px;
 }
 
 .saved-cards {
@@ -134,10 +135,11 @@ html, body {
 .PopupBox {
   background-color: #d9d9d9;
   margin-left: 180px;
-  margin-right: 200px;
+  
   border-radius: 11px;
   padding: 50px;
   margin-top: 30px;
+  width: 335px;
 }
 
 .Name {
@@ -251,6 +253,10 @@ html, body {
   margin-left: 310px;
   font-size: 17pt;
   font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
 }
 
 .Addcardbox:hover {
@@ -274,9 +280,9 @@ html, body {
 
 @media screen and (max-width: 670px) {
   .cross {
-    width: 40px;
+    width: 30px;
     margin-top: 15px;
-    margin-left: 38px;
+    margin-left: 20px;
   }
 
   .whole {
@@ -379,6 +385,7 @@ html, body {
     height: 50px;
     padding-left: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    
   }
 
   .plus-add {
@@ -545,6 +552,10 @@ html, body {
     margin-left: 111px;
     font-size: 17pt;
     font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
   }
 
   .loginBAddcardbox:hover {

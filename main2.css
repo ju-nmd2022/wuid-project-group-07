@@ -22,7 +22,7 @@
 
 .eggwrap-heading {
   position: absolute;
-  margin-top: 350px;
+  margin-top: 500px;
   margin-left: 50px;
   font-size: 55pt;
   width: 800px;
@@ -36,20 +36,6 @@
   line-height: 110px;
 }
 
-.eggwrap-text {
-  position: absolute;
-  margin-top: 480px;
-  font-size: 16pt;
-  font-weight: 450;
-  margin-left: 50px;
-  color: #ffffff;
-  font-family: 'Inter', sans-serif;
-  text-shadow: 3px 3px 5px #1b1b1b;
-  width: 500px;
-  line-height: 30px;
-  
-
-}
 
 
 .web-menu-center {
@@ -214,14 +200,21 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-
+border-radius: 0px 0px 11px 11px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-.headline-breakfast {
+.headline-breakfast1 {
   margin-top: 80px;
   font-size: 40pt;
   margin-left: 116px;
+}
+
+.line1 {
+  height: 1px;
+  width: 600px;
+  background-color: black;
+  margin-left: 110px;
 }
 
 .line {
@@ -1171,6 +1164,21 @@ body {
     line-height: 30px;
     display: none;
   
+  }
+
+  .headline-breakfast1 {
+    margin-top: 80px;
+    font-size: 40pt;
+    margin-left: 116px;
+    display: none;
+  }
+  
+  .line1 {
+    height: 1px;
+    width: 600px;
+    background-color: black;
+    margin-left: 110px;
+    display: none;
   }
 
 
