@@ -3,10 +3,10 @@
 }
 
 .logo {
-  width: 100px;
-  margin-left: 20px;
+  width: 180px;
+  margin-left: 50px;
   display: block;
-  
+  margin-top: 12px;
 }
 
 .logo-mobile {
@@ -15,15 +15,41 @@
   display: none;
 }
 
+.hide-web {
+  display: none;
+}
+
+
+.eggwrap-heading {
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 50px;
+  font-size: 55pt;
+  width: 800px;
+  height: 80px;
+  font-weight: 600;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 0px;
+  text-shadow: 3px 3px 5px #1b1b1b;
+  font-family: 'Inter', sans-serif;
+  line-height: 110px;
+}
+
+
+
 .web-menu-center {
   font-size: 17pt;
   font-weight: 500;
   margin-top: 20px;
-  margin-left: 240px;
+  margin-left: 160px;
   display: flex;
 }
 
-.cart-menu, .favourites-menu, .find-menu, .order-menu {
+.cart-menu,
+.favourites-menu,
+.find-menu,
+.order-menu {
   margin-left: 50px;
   text-decoration: none;
   display: inline-block;
@@ -31,14 +57,14 @@
   color: black;
   display: block;
   transition: 0.1s;
-
 }
 
-.cart-menu:hover, .favourites-menu:hover, .find-menu:hover, .order-menu:hover {
+.cart-menu:hover,
+.favourites-menu:hover,
+.find-menu:hover,
+.order-menu:hover {
   text-decoration: underline;
 }
-
-
 
 .payment-menu {
   text-decoration: none;
@@ -53,22 +79,17 @@
   text-decoration: underline;
 }
 
-
-
 .account-icon {
   display: flex;
   margin-left: 200px;
-
 }
 
 .account {
-  margin-bottom: 10px;
   margin-right: 10px;
-  display: block;
-  
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 50px;
 }
-  
-
 
 .account-text {
   margin-top: 20px;
@@ -79,7 +100,6 @@
   cursor: pointer;
   color: black;
   display: block;
-  
 }
 
 .account-text:hover {
@@ -88,13 +108,7 @@
 
 .web-menu {
   display: flex;
-  
-  
 }
-
-
-
-
 
 body {
   background-color: #ffffff;
@@ -109,14 +123,13 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-
 .side-navigation {
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: black;
   overflow-x: hidden;
   transition: 0.5s;
@@ -167,11 +180,6 @@ body {
   display: none;
 }
 
-.account {
-  width: 35px;
-  margin-top: 25px;
-  margin-left: 50px;
-}
 
 .list {
   width: 35px;
@@ -192,14 +200,21 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-
+border-radius: 0px 0px 11px 11px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-.headline-breakfast {
+.headline-breakfast1 {
   margin-top: 80px;
   font-size: 40pt;
   margin-left: 116px;
+}
+
+.line1 {
+  height: 1px;
+  width: 600px;
+  background-color: black;
+  margin-left: 110px;
 }
 
 .line {
@@ -545,12 +560,27 @@ body {
   display: none;
 }
 
+.back {
+  position: absolute;
+  width: 50px;
+  margin-top: 30px;
+  display: none;
+
+}
+
 @media screen and (max-width: 890px) {
   .Mobileheadphoto2 {
     display: block;
     width: 100%;
     height: 600px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .back {
+    position: absolute;
+    width: 50px;
+    margin-top: 30px;
+    display: block;
   }
 
   .side-navigation {
@@ -793,8 +823,9 @@ body {
     width: 400px;
     line-height: 70px;
     margin-right: 0px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: 12px;
+    margin-bottom: 50px;
   }
 
   .ingredients-list {
@@ -803,7 +834,7 @@ body {
     grid-row: 1;
     width: 385px;
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 0px;
   }
 
   .info-li {
@@ -1029,16 +1060,11 @@ body {
     margin-top: 55px;
   }
 
-
-
-
   .logo {
     width: 100px;
     margin-left: 20px;
-    
-    
   }
-  
+
   .web-menu-center {
     font-size: 17pt;
     font-weight: 600;
@@ -1046,8 +1072,12 @@ body {
     margin-left: 200px;
     display: flex;
   }
-  
-  .payment-menu, .cart-menu, .favourites-menu, .find-menu, .order-menu {
+
+  .payment-menu,
+  .cart-menu,
+  .favourites-menu,
+  .find-menu,
+  .order-menu {
     margin-left: 50px;
     text-decoration: none;
     display: inline-block;
@@ -1055,33 +1085,28 @@ body {
     color: black;
     display: none;
     transition: 0.3s;
-  
   }
 
-  .payment-menu, .cart-menu, .favourites-menu, .find-menu, .order-menu:hover {
+  .payment-menu,
+  .cart-menu,
+  .favourites-menu,
+  .find-menu,
+  .order-menu:hover {
     transform: scale(1.02);
     color: #f5d151;
   }
-  
- 
-  
+
   .account-icon {
     display: flex;
     margin-left: 200px;
-    
-    
-  
   }
-  
+
   .account {
     margin-bottom: 10px;
     margin-right: 10px;
     display: none;
-    
   }
-    
-  
-  
+
   .account-text {
     margin-top: 20px;
     font-size: 17pt;
@@ -1091,20 +1116,71 @@ body {
     cursor: pointer;
     color: black;
     display: none;
-    
-    
   }
-  
+
   .web-menu {
     display: flex;
     display: none;
-    
   }
-
 
   .logo-mobile {
-    width: 100px;
-    margin-left: 0px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
     display: block;
   }
+
+  .hide-web {
+    display: block;
+  }
+
+
+
+  .eggwrap-heading {
+    width: 400px;
+    height: 80px;
+    font-size: 40pt;
+    font-weight: 600;
+    color: #ffffff;
+    display: block;
+    line-height: 70px;
+    margin-top: 300px;
+    text-shadow: 3px 3px 5px #1b1b1b;
+    font-family: 'Inter', sans-serif;
+    margin-left: 10px;
+    display: none;
+  }
+  
+  .eggwrap-text {
+    position: absolute;
+    margin-top: 450px;
+    font-size: 16pt;
+    font-weight: 450;
+    margin-left: 50px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    text-shadow: 3px 3px 5px #1b1b1b;
+    width: 500px;
+    line-height: 30px;
+    display: none;
+  
+  }
+
+  .headline-breakfast1 {
+    margin-top: 80px;
+    font-size: 40pt;
+    margin-left: 116px;
+    display: none;
+  }
+  
+  .line1 {
+    height: 1px;
+    width: 600px;
+    background-color: black;
+    margin-left: 110px;
+    display: none;
+  }
+
+
+  
 }

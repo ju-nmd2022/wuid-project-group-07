@@ -14,10 +14,10 @@
 */
 
 .logo {
-  width: 100px;
-  margin-left: 20px;
+  width: 180px;
+  margin-left: 50px;
   display: block;
-  
+  margin-top: 12px;
 }
 
 .logo-mobile {
@@ -28,13 +28,16 @@
 
 .web-menu-center {
   font-size: 17pt;
-  font-weight: 500;
+  font-weight: 450;
   margin-top: 20px;
-  margin-left: 240px;
+  margin-left: 160px;
   display: flex;
 }
 
-.cart-menu, .favourites-menu, .find-menu, .order-menu {
+.cart-menu,
+.favourites-menu,
+.find-menu,
+.order-menu {
   margin-left: 50px;
   text-decoration: none;
   display: inline-block;
@@ -42,14 +45,14 @@
   color: black;
   display: block;
   transition: 0.1s;
-
 }
 
-.cart-menu:hover, .favourites-menu:hover, .find-menu:hover, .order-menu:hover {
+.cart-menu:hover,
+.favourites-menu:hover,
+.find-menu:hover,
+.order-menu:hover {
   text-decoration: underline;
 }
-
-
 
 .payment-menu {
   text-decoration: none;
@@ -64,22 +67,17 @@
   text-decoration: underline;
 }
 
-
-
 .account-icon {
   display: flex;
   margin-left: 200px;
-
 }
 
 .account {
-  margin-bottom: 10px;
   margin-right: 10px;
-  display: block;
-  
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 50px;
 }
-  
-
 
 .account-text {
   margin-top: 20px;
@@ -90,7 +88,6 @@
   cursor: pointer;
   color: black;
   display: block;
-  
 }
 
 .account-text:hover {
@@ -99,18 +96,7 @@
 
 .web-menu {
   display: flex;
-  
-  
 }
-
-
-
-
-
-
-
-
-
 
 body {
   background-color: #eeeeee;
@@ -182,12 +168,6 @@ body {
   display: none;
 }
 
-.account {
-  width: 35px;
-  margin-top: 25px;
-  margin-left: 50px;
-}
-
 .list {
   width: 35px;
   margin-top: 8px;
@@ -205,6 +185,7 @@ body {
 .headphoto {
   position: absolute;
   width: 100%;
+  border-radius: 0px 0px 11px 11px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -217,23 +198,51 @@ body {
 
 .elements {
   position: absolute;
-  margin-top: 300px;
+  margin-top: 100px;
   margin-right: 400px;
 }
+.discount {
+  font-size: 20pt;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #f5d151;
+  border-radius: 22px;
+  width: 350px;
+  text-align: center;
+  margin-bottom: 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  
+}
+.sub-text {
+  font-size: 40pt;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 0px;
+  text-shadow: 3px 3px 5px #1b1b1b;
+}
+
+
+
+
 
 .heading {
-  width: 600px;
+  width: 800px;
   height: 80px;
-  font-size: 50pt;
+  font-size: 55pt;
   font-weight: 600;
-  color: rgb(255, 255, 255);
+  color: #f5d151;
   display: block;
-  margin-bottom: 160px;
-  text-shadow: 3px 3px 3px black;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  text-shadow: 3px 3px 5px #1b1b1b;
+  font-family: 'Inter', sans-serif;
+  line-height: 110px;
 }
 
 .bardesktop {
   display: flex;
+  margin-top: 70px;
 }
 
 .search-bardesk {
@@ -455,7 +464,6 @@ body {
   margin-top: 10px;
 }
 
-
 .star {
   width: 30px;
   margin-left: 20px;
@@ -472,6 +480,15 @@ body {
   display: inline;
   height: 10px;
   margin-top: 250px;
+}
+
+.reviews {
+  font-size: 14pt;
+  font-weight: 250;
+  margin-left: 10px;
+  display: inline;
+  height: 10px;
+  margin-top: 255px;
 }
 
 .star-rating1 {
@@ -699,8 +716,6 @@ body {
   margin-left: 10px;
 }
 
-
-
 .star4 {
   width: 30px;
   margin-left: 20px;
@@ -864,7 +879,6 @@ body {
   margin-left: 10px;
 }
 
-
 .star7 {
   width: 30px;
   margin-left: 20px;
@@ -1026,7 +1040,6 @@ body {
   width: 30px;
   margin-left: 10px;
 }
-
 
 .star10 {
   width: 30px;
@@ -1247,13 +1260,60 @@ body {
 
   .elements {
     position: absolute;
-    margin-top: 300px;
+    margin-top: 70px;
     margin-right: 0px;
     margin-left: 30px;
   }
 
+  .discount {
+    font-size: 15pt;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #f5d151;
+    border-radius: 22px;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 130px;
+    padding: 5px;
+    margin-left: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+
+    
+  }
+  .sub-text {
+    font-size: 25pt;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0px;
+    text-shadow: 3px 3px 5px #1b1b1b;
+  }
+  
+  
+  .under-text1 {
+    font-size: 14pt;
+    font-weight: 450;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    margin-top: 50px;
+    text-shadow: 3px 3px 5px #1b1b1b;
+    width: 250px;
+    display: none;
+  }
+  
+  .under-text2 {
+    font-size: 14pt;
+    font-weight: 450;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    text-shadow: 3px 3px 5px #1b1b1b;
+    width: 250px;
+    display: none;
+  }
+  
+  
   .heading {
-    width: 400px;
+    width: 330px;
     height: 80px;
     font-size: 40pt;
     font-weight: 600;
@@ -1261,8 +1321,16 @@ body {
     display: block;
     margin-bottom: 120px;
     line-height: 70px;
-    text-shadow: 3px 3px 3px black;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-shadow: 3px 3px 5px #1b1b1b;
+    font-family: 'Inter', sans-serif;
+    margin-right: 60px;
+    
+  
   }
+  
+
 
   .bar {
     display: flex;
@@ -1524,8 +1592,18 @@ body {
     margin-left: 10px;
     display: inline;
     height: 10px;
-    margin-top: 225px;
+    margin-top: 226px;
   }
+  
+  .reviews {
+    font-size: 14pt;
+    font-weight: 250;
+    margin-left: 10px;
+    display: inline;
+    height: 10px;
+    margin-top: 230px;
+  }
+  
 
   .star-rating1 {
     display: flex;
@@ -2230,23 +2308,11 @@ body {
     display: none;
   }
 
-
-
-
-
-
-
-
-
-
-
   .logo {
     width: 100px;
     margin-left: 20px;
-    
-    
   }
-  
+
   .web-menu-center {
     font-size: 17pt;
     font-weight: 600;
@@ -2254,8 +2320,12 @@ body {
     margin-left: 200px;
     display: flex;
   }
-  
-  .payment-menu, .cart-menu, .favourites-menu, .find-menu, .order-menu {
+
+  .payment-menu,
+  .cart-menu,
+  .favourites-menu,
+  .find-menu,
+  .order-menu {
     margin-left: 50px;
     text-decoration: none;
     display: inline-block;
@@ -2263,33 +2333,28 @@ body {
     color: black;
     display: none;
     transition: 0.3s;
-  
   }
 
-  .payment-menu, .cart-menu, .favourites-menu, .find-menu, .order-menu:hover {
+  .payment-menu,
+  .cart-menu,
+  .favourites-menu,
+  .find-menu,
+  .order-menu:hover {
     transform: scale(1.02);
     color: #f5d151;
   }
-  
- 
-  
+
   .account-icon {
     display: flex;
     margin-left: 200px;
-    
-    
-  
   }
-  
+
   .account {
     margin-bottom: 10px;
     margin-right: 10px;
     display: none;
-    
   }
-    
-  
-  
+
   .account-text {
     margin-top: 20px;
     font-size: 17pt;
@@ -2299,21 +2364,17 @@ body {
     cursor: pointer;
     color: black;
     display: none;
-    
-    
   }
-  
+
   .web-menu {
     display: flex;
     display: none;
-    
   }
-
 
   .logo-mobile {
-    width: 100px;
-    margin-left: 0px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
     display: block;
   }
-  
 }

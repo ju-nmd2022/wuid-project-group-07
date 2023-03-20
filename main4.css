@@ -2,13 +2,11 @@
   font-family: "Baloo Da 2", sans-serif;
 }
 
-
-
 .logo {
-  width: 100px;
-  margin-left: 20px;
+  width: 180px;
+  margin-left: 50px;
   display: block;
-  
+  margin-top: 12px;
 }
 
 .logo-mobile {
@@ -17,15 +15,19 @@
   display: none;
 }
 
+
 .web-menu-center {
   font-size: 17pt;
   font-weight: 500;
   margin-top: 20px;
-  margin-left: 240px;
+  margin-left: 160px;
   display: flex;
 }
 
-.cart-menu, .favourites-menu, .find-menu, .order-menu {
+.cart-menu,
+.favourites-menu,
+.find-menu,
+.order-menu {
   margin-left: 50px;
   text-decoration: none;
   display: inline-block;
@@ -33,14 +35,14 @@
   color: black;
   display: block;
   transition: 0.1s;
-
 }
 
-.cart-menu:hover, .favourites-menu:hover, .find-menu:hover, .order-menu:hover {
+.cart-menu:hover,
+.favourites-menu:hover,
+.find-menu:hover,
+.order-menu:hover {
   text-decoration: underline;
 }
-
-
 
 .payment-menu {
   text-decoration: none;
@@ -55,22 +57,17 @@
   text-decoration: underline;
 }
 
-
-
 .account-icon {
   display: flex;
   margin-left: 200px;
-
 }
 
 .account {
-  margin-bottom: 10px;
   margin-right: 10px;
-  display: block;
-  
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 50px;
 }
-  
-
 
 .account-text {
   margin-top: 20px;
@@ -81,21 +78,16 @@
   cursor: pointer;
   color: black;
   display: block;
-  
 }
 
 .account-text:hover {
   text-decoration: underline;
 }
 
+
 .web-menu {
   display: flex;
-  
-  
 }
-
-
-
 
 body {
   background-color: #f5d151;
@@ -116,7 +108,7 @@ body {
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: black;
   overflow-x: hidden;
   transition: 0.5s;
@@ -167,11 +159,6 @@ body {
   display: none;
 }
 
-.account {
-  width: 35px;
-  margin-top: 25px;
-  margin-left: 50px;
-}
 
 .list {
   width: 35px;
@@ -258,11 +245,27 @@ body {
   font-size: 15pt;
 }
 
+.back {
+  position: absolute;
+  width: 50px;
+  margin-top: 30px;
+  display: none;
+
+}
+
 @media screen and (max-width: 890px) {
   .headline-proccess {
     margin-top: 100px;
     font-size: 30pt;
     margin-left: 30px;
+  }
+
+  .back {
+    position: absolute;
+    width: 50px;
+    margin-top: 30px;
+    display: block;
+  
   }
 
   .side-navigation {
@@ -400,24 +403,11 @@ body {
     margin-top: 450px;
   }
 
-
-
-
-
-
-
-
-
-
-
-
   .logo {
     width: 100px;
     margin-left: 20px;
-    
-    
   }
-  
+
   .web-menu-center {
     font-size: 17pt;
     font-weight: 600;
@@ -425,8 +415,12 @@ body {
     margin-left: 200px;
     display: flex;
   }
-  
-  .payment-menu, .cart-menu, .favourites-menu, .find-menu, .order-menu {
+
+  .payment-menu,
+  .cart-menu,
+  .favourites-menu,
+  .find-menu,
+  .order-menu {
     margin-left: 50px;
     text-decoration: none;
     display: inline-block;
@@ -434,33 +428,28 @@ body {
     color: black;
     display: none;
     transition: 0.3s;
-  
   }
 
-  .payment-menu, .cart-menu, .favourites-menu, .find-menu, .order-menu:hover {
+  .payment-menu,
+  .cart-menu,
+  .favourites-menu,
+  .find-menu,
+  .order-menu:hover {
     transform: scale(1.02);
     color: #f5d151;
   }
-  
- 
-  
+
   .account-icon {
     display: flex;
     margin-left: 200px;
-    
-    
-  
   }
-  
+
   .account {
     margin-bottom: 10px;
     margin-right: 10px;
     display: none;
-    
   }
-    
-  
-  
+
   .account-text {
     margin-top: 20px;
     font-size: 17pt;
@@ -470,20 +459,17 @@ body {
     cursor: pointer;
     color: black;
     display: none;
-    
-    
   }
-  
+
   .web-menu {
     display: flex;
     display: none;
-    
   }
 
-
   .logo-mobile {
-    width: 100px;
-    margin-left: 0px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
     display: block;
   }
 }
