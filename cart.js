@@ -11,7 +11,7 @@ plus.addEventListener("click", () => {
     a = (a < 10) ? "0" + a : a;
     num.innerText = a;
 
-    b += b;
+    b += 95;
     b = (b < 95000) ? b : b + "SEK" ;
     price.innerText = b;
 });
@@ -24,7 +24,7 @@ minus.addEventListener("click", () => {
     }
 
     if (b > 95) {
-        b -= b;
+        b -= 95;
         b = (b < 95000) ? b : b + "SEK";
         price.innerText = b;
     }
