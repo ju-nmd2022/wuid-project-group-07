@@ -1,7 +1,7 @@
 const plus = document.querySelector('.plus'),
       minus = document.querySelector('.minus'),
       num = document.querySelector('.num'),
-      price = document.querySelector('.price-item')
+      price = document.querySelector('.price-item');
 
 let a = 1,
     b = 95;
@@ -12,8 +12,8 @@ plus.addEventListener("click", () => {
     num.innerText = a;
 
     b += 95;
-    b = (b < 95000) ? b : b + "SEK" ;
-    price.innerText = b;
+    // b = (b < 95000) ? b : b ;
+    price.innerText = b + "SEK";
 });
 
 minus.addEventListener("click", () => {
@@ -25,7 +25,7 @@ minus.addEventListener("click", () => {
 
     if (b > 95) {
         b -= 95;
-        b = (b < 95000) ? b : b + "SEK";
-        price.innerText = b;
+        // b = (b < 95000) ? b : b ;
+        price.innerText = b + "SEK";
     }
 });
